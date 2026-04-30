@@ -1,0 +1,5309 @@
+{
+  "type": "FeatureCollection",
+  "entity_type": "ConiferousForest",
+  "year": 2001,
+  "vap_doy": 106.26,
+  "mean_doy": 106.26,
+  "min_doy": 71,
+  "max_doy": 125,
+  "valid_percent": 0.1915,
+  "crs": "EPSG:4326",
+  "grid_width": 318,
+  "grid_height": 202,
+  "sensor": "MODIS Terra",
+  "algorithm": "VAP derived from Fractional Snow Cover time series",
+  "anomaly": "not_applicable_sample",
+  "name": "EBV Phenology Finland \u2014 sampled raster cells",
+  "description": "GeoJSON sample generated from the original NetCDF raster. Each feature is one sampled raster cell for coniferous forest in 2001. This is intended for visualisation in the Building Blocks examples page, not as a replacement for the full raster dataset.",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r30-c200",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.386779,
+              69.11246
+            ],
+            [
+              27.453207,
+              69.11246
+            ],
+            [
+              27.453207,
+              69.178888
+            ],
+            [
+              27.386779,
+              69.178888
+            ],
+            [
+              27.386779,
+              69.11246
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 121,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 30,
+        "source_cell_col": 200
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r30-c220",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.71534,
+              69.11246
+            ],
+            [
+              28.781768,
+              69.11246
+            ],
+            [
+              28.781768,
+              69.178888
+            ],
+            [
+              28.71534,
+              69.178888
+            ],
+            [
+              28.71534,
+              69.11246
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 124,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 30,
+        "source_cell_col": 220
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r40-c180",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.058218,
+              68.44818
+            ],
+            [
+              26.124646,
+              68.44818
+            ],
+            [
+              26.124646,
+              68.514608
+            ],
+            [
+              26.058218,
+              68.514608
+            ],
+            [
+              26.058218,
+              68.44818
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 122,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 40,
+        "source_cell_col": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r40-c190",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.722498,
+              68.44818
+            ],
+            [
+              26.788927,
+              68.44818
+            ],
+            [
+              26.788927,
+              68.514608
+            ],
+            [
+              26.722498,
+              68.514608
+            ],
+            [
+              26.722498,
+              68.44818
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 124,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 40,
+        "source_cell_col": 190
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r40-c200",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.386779,
+              68.44818
+            ],
+            [
+              27.453207,
+              68.44818
+            ],
+            [
+              27.453207,
+              68.514608
+            ],
+            [
+              27.386779,
+              68.514608
+            ],
+            [
+              27.386779,
+              68.44818
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 120,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 40,
+        "source_cell_col": 200
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r40-c210",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.05106,
+              68.44818
+            ],
+            [
+              28.117488,
+              68.44818
+            ],
+            [
+              28.117488,
+              68.514608
+            ],
+            [
+              28.05106,
+              68.514608
+            ],
+            [
+              28.05106,
+              68.44818
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 116,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 40,
+        "source_cell_col": 210
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r50-c150",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.065376,
+              67.783899
+            ],
+            [
+              24.131804,
+              67.783899
+            ],
+            [
+              24.131804,
+              67.850327
+            ],
+            [
+              24.065376,
+              67.850327
+            ],
+            [
+              24.065376,
+              67.783899
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 122,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 50,
+        "source_cell_col": 150
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r50-c160",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.729657,
+              67.783899
+            ],
+            [
+              24.796085,
+              67.783899
+            ],
+            [
+              24.796085,
+              67.850327
+            ],
+            [
+              24.729657,
+              67.850327
+            ],
+            [
+              24.729657,
+              67.783899
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 119,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 50,
+        "source_cell_col": 160
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r50-c170",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.393937,
+              67.783899
+            ],
+            [
+              25.460365,
+              67.783899
+            ],
+            [
+              25.460365,
+              67.850327
+            ],
+            [
+              25.393937,
+              67.850327
+            ],
+            [
+              25.393937,
+              67.783899
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 120,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 50,
+        "source_cell_col": 170
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r50-c180",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.058218,
+              67.783899
+            ],
+            [
+              26.124646,
+              67.783899
+            ],
+            [
+              26.124646,
+              67.850327
+            ],
+            [
+              26.058218,
+              67.850327
+            ],
+            [
+              26.058218,
+              67.783899
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 125,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 50,
+        "source_cell_col": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r50-c190",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.722498,
+              67.783899
+            ],
+            [
+              26.788927,
+              67.783899
+            ],
+            [
+              26.788927,
+              67.850327
+            ],
+            [
+              26.722498,
+              67.850327
+            ],
+            [
+              26.722498,
+              67.783899
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 120,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 50,
+        "source_cell_col": 190
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r50-c200",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.386779,
+              67.783899
+            ],
+            [
+              27.453207,
+              67.783899
+            ],
+            [
+              27.453207,
+              67.850327
+            ],
+            [
+              27.386779,
+              67.850327
+            ],
+            [
+              27.386779,
+              67.783899
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 123,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 50,
+        "source_cell_col": 200
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r50-c210",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.05106,
+              67.783899
+            ],
+            [
+              28.117488,
+              67.783899
+            ],
+            [
+              28.117488,
+              67.850327
+            ],
+            [
+              28.05106,
+              67.850327
+            ],
+            [
+              28.05106,
+              67.783899
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 124,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 50,
+        "source_cell_col": 210
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r50-c220",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.71534,
+              67.783899
+            ],
+            [
+              28.781768,
+              67.783899
+            ],
+            [
+              28.781768,
+              67.850327
+            ],
+            [
+              28.71534,
+              67.850327
+            ],
+            [
+              28.71534,
+              67.783899
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 122,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 50,
+        "source_cell_col": 220
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r50-c230",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.379621,
+              67.783899
+            ],
+            [
+              29.446049,
+              67.783899
+            ],
+            [
+              29.446049,
+              67.850327
+            ],
+            [
+              29.379621,
+              67.850327
+            ],
+            [
+              29.379621,
+              67.783899
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 119,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 50,
+        "source_cell_col": 230
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r60-c150",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.065376,
+              67.119618
+            ],
+            [
+              24.131804,
+              67.119618
+            ],
+            [
+              24.131804,
+              67.186046
+            ],
+            [
+              24.065376,
+              67.186046
+            ],
+            [
+              24.065376,
+              67.119618
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 118,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 60,
+        "source_cell_col": 150
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r60-c160",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.729657,
+              67.119618
+            ],
+            [
+              24.796085,
+              67.119618
+            ],
+            [
+              24.796085,
+              67.186046
+            ],
+            [
+              24.729657,
+              67.186046
+            ],
+            [
+              24.729657,
+              67.119618
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 120,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 60,
+        "source_cell_col": 160
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r60-c170",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.393937,
+              67.119618
+            ],
+            [
+              25.460365,
+              67.119618
+            ],
+            [
+              25.460365,
+              67.186046
+            ],
+            [
+              25.393937,
+              67.186046
+            ],
+            [
+              25.393937,
+              67.119618
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 120,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 60,
+        "source_cell_col": 170
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r60-c180",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.058218,
+              67.119618
+            ],
+            [
+              26.124646,
+              67.119618
+            ],
+            [
+              26.124646,
+              67.186046
+            ],
+            [
+              26.058218,
+              67.186046
+            ],
+            [
+              26.058218,
+              67.119618
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 121,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 60,
+        "source_cell_col": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r60-c190",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.722498,
+              67.119618
+            ],
+            [
+              26.788927,
+              67.119618
+            ],
+            [
+              26.788927,
+              67.186046
+            ],
+            [
+              26.722498,
+              67.186046
+            ],
+            [
+              26.722498,
+              67.119618
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 122,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 60,
+        "source_cell_col": 190
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r60-c210",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.05106,
+              67.119618
+            ],
+            [
+              28.117488,
+              67.119618
+            ],
+            [
+              28.117488,
+              67.186046
+            ],
+            [
+              28.05106,
+              67.186046
+            ],
+            [
+              28.05106,
+              67.119618
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 118,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 60,
+        "source_cell_col": 210
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r60-c220",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.71534,
+              67.119618
+            ],
+            [
+              28.781768,
+              67.119618
+            ],
+            [
+              28.781768,
+              67.186046
+            ],
+            [
+              28.71534,
+              67.186046
+            ],
+            [
+              28.71534,
+              67.119618
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 117,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 60,
+        "source_cell_col": 220
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r70-c150",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.065376,
+              66.455338
+            ],
+            [
+              24.131804,
+              66.455338
+            ],
+            [
+              24.131804,
+              66.521766
+            ],
+            [
+              24.065376,
+              66.521766
+            ],
+            [
+              24.065376,
+              66.455338
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 120,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 70,
+        "source_cell_col": 150
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r70-c160",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.729657,
+              66.455338
+            ],
+            [
+              24.796085,
+              66.455338
+            ],
+            [
+              24.796085,
+              66.521766
+            ],
+            [
+              24.729657,
+              66.521766
+            ],
+            [
+              24.729657,
+              66.455338
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 118,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 70,
+        "source_cell_col": 160
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r70-c170",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.393937,
+              66.455338
+            ],
+            [
+              25.460365,
+              66.455338
+            ],
+            [
+              25.460365,
+              66.521766
+            ],
+            [
+              25.393937,
+              66.521766
+            ],
+            [
+              25.393937,
+              66.455338
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 118,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 70,
+        "source_cell_col": 170
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r70-c180",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.058218,
+              66.455338
+            ],
+            [
+              26.124646,
+              66.455338
+            ],
+            [
+              26.124646,
+              66.521766
+            ],
+            [
+              26.058218,
+              66.521766
+            ],
+            [
+              26.058218,
+              66.455338
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 117,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 70,
+        "source_cell_col": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r70-c190",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.722498,
+              66.455338
+            ],
+            [
+              26.788927,
+              66.455338
+            ],
+            [
+              26.788927,
+              66.521766
+            ],
+            [
+              26.722498,
+              66.521766
+            ],
+            [
+              26.722498,
+              66.455338
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 117,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 70,
+        "source_cell_col": 190
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r70-c200",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.386779,
+              66.455338
+            ],
+            [
+              27.453207,
+              66.455338
+            ],
+            [
+              27.453207,
+              66.521766
+            ],
+            [
+              27.386779,
+              66.521766
+            ],
+            [
+              27.386779,
+              66.455338
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 116,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 70,
+        "source_cell_col": 200
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r70-c210",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.05106,
+              66.455338
+            ],
+            [
+              28.117488,
+              66.455338
+            ],
+            [
+              28.117488,
+              66.521766
+            ],
+            [
+              28.05106,
+              66.521766
+            ],
+            [
+              28.05106,
+              66.455338
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 117,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 70,
+        "source_cell_col": 210
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r70-c220",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.71534,
+              66.455338
+            ],
+            [
+              28.781768,
+              66.455338
+            ],
+            [
+              28.781768,
+              66.521766
+            ],
+            [
+              28.71534,
+              66.521766
+            ],
+            [
+              28.71534,
+              66.455338
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 118,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 70,
+        "source_cell_col": 220
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r70-c230",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.379621,
+              66.455338
+            ],
+            [
+              29.446049,
+              66.455338
+            ],
+            [
+              29.446049,
+              66.521766
+            ],
+            [
+              29.379621,
+              66.521766
+            ],
+            [
+              29.379621,
+              66.455338
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 116,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 70,
+        "source_cell_col": 230
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r80-c160",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.729657,
+              65.791057
+            ],
+            [
+              24.796085,
+              65.791057
+            ],
+            [
+              24.796085,
+              65.857485
+            ],
+            [
+              24.729657,
+              65.857485
+            ],
+            [
+              24.729657,
+              65.791057
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 116,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 80,
+        "source_cell_col": 160
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r80-c180",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.058218,
+              65.791057
+            ],
+            [
+              26.124646,
+              65.791057
+            ],
+            [
+              26.124646,
+              65.857485
+            ],
+            [
+              26.058218,
+              65.857485
+            ],
+            [
+              26.058218,
+              65.791057
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 114,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 80,
+        "source_cell_col": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r80-c190",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.722498,
+              65.791057
+            ],
+            [
+              26.788927,
+              65.791057
+            ],
+            [
+              26.788927,
+              65.857485
+            ],
+            [
+              26.722498,
+              65.857485
+            ],
+            [
+              26.722498,
+              65.791057
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 114,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 80,
+        "source_cell_col": 190
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r80-c200",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.386779,
+              65.791057
+            ],
+            [
+              27.453207,
+              65.791057
+            ],
+            [
+              27.453207,
+              65.857485
+            ],
+            [
+              27.386779,
+              65.857485
+            ],
+            [
+              27.386779,
+              65.791057
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 114,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 80,
+        "source_cell_col": 200
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r80-c210",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.05106,
+              65.791057
+            ],
+            [
+              28.117488,
+              65.791057
+            ],
+            [
+              28.117488,
+              65.857485
+            ],
+            [
+              28.05106,
+              65.857485
+            ],
+            [
+              28.05106,
+              65.791057
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 118,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 80,
+        "source_cell_col": 210
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r80-c220",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.71534,
+              65.791057
+            ],
+            [
+              28.781768,
+              65.791057
+            ],
+            [
+              28.781768,
+              65.857485
+            ],
+            [
+              28.71534,
+              65.857485
+            ],
+            [
+              28.71534,
+              65.791057
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 116,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 80,
+        "source_cell_col": 220
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r80-c230",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.379621,
+              65.791057
+            ],
+            [
+              29.446049,
+              65.791057
+            ],
+            [
+              29.446049,
+              65.857485
+            ],
+            [
+              29.379621,
+              65.857485
+            ],
+            [
+              29.379621,
+              65.791057
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 117,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 80,
+        "source_cell_col": 230
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r80-c240",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.043902,
+              65.791057
+            ],
+            [
+              30.11033,
+              65.791057
+            ],
+            [
+              30.11033,
+              65.857485
+            ],
+            [
+              30.043902,
+              65.857485
+            ],
+            [
+              30.043902,
+              65.791057
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 114,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 80,
+        "source_cell_col": 240
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r90-c170",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.393937,
+              65.126776
+            ],
+            [
+              25.460365,
+              65.126776
+            ],
+            [
+              25.460365,
+              65.193205
+            ],
+            [
+              25.393937,
+              65.193205
+            ],
+            [
+              25.393937,
+              65.126776
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 115,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 90,
+        "source_cell_col": 170
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r90-c180",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.058218,
+              65.126776
+            ],
+            [
+              26.124646,
+              65.126776
+            ],
+            [
+              26.124646,
+              65.193205
+            ],
+            [
+              26.058218,
+              65.193205
+            ],
+            [
+              26.058218,
+              65.126776
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 112,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 90,
+        "source_cell_col": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r90-c190",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.722498,
+              65.126776
+            ],
+            [
+              26.788927,
+              65.126776
+            ],
+            [
+              26.788927,
+              65.193205
+            ],
+            [
+              26.722498,
+              65.193205
+            ],
+            [
+              26.722498,
+              65.126776
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 113,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 90,
+        "source_cell_col": 190
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r90-c200",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.386779,
+              65.126776
+            ],
+            [
+              27.453207,
+              65.126776
+            ],
+            [
+              27.453207,
+              65.193205
+            ],
+            [
+              27.386779,
+              65.193205
+            ],
+            [
+              27.386779,
+              65.126776
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 112,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 90,
+        "source_cell_col": 200
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r90-c210",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.05106,
+              65.126776
+            ],
+            [
+              28.117488,
+              65.126776
+            ],
+            [
+              28.117488,
+              65.193205
+            ],
+            [
+              28.05106,
+              65.193205
+            ],
+            [
+              28.05106,
+              65.126776
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 110,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 90,
+        "source_cell_col": 210
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r90-c220",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.71534,
+              65.126776
+            ],
+            [
+              28.781768,
+              65.126776
+            ],
+            [
+              28.781768,
+              65.193205
+            ],
+            [
+              28.71534,
+              65.193205
+            ],
+            [
+              28.71534,
+              65.126776
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 114,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 90,
+        "source_cell_col": 220
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r90-c230",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.379621,
+              65.126776
+            ],
+            [
+              29.446049,
+              65.126776
+            ],
+            [
+              29.446049,
+              65.193205
+            ],
+            [
+              29.379621,
+              65.193205
+            ],
+            [
+              29.379621,
+              65.126776
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 113,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 90,
+        "source_cell_col": 230
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r100-c160",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.729657,
+              64.462496
+            ],
+            [
+              24.796085,
+              64.462496
+            ],
+            [
+              24.796085,
+              64.528924
+            ],
+            [
+              24.729657,
+              64.528924
+            ],
+            [
+              24.729657,
+              64.462496
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 114,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 100,
+        "source_cell_col": 160
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r100-c170",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.393937,
+              64.462496
+            ],
+            [
+              25.460365,
+              64.462496
+            ],
+            [
+              25.460365,
+              64.528924
+            ],
+            [
+              25.393937,
+              64.528924
+            ],
+            [
+              25.393937,
+              64.462496
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 107,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 100,
+        "source_cell_col": 170
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r100-c180",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.058218,
+              64.462496
+            ],
+            [
+              26.124646,
+              64.462496
+            ],
+            [
+              26.124646,
+              64.528924
+            ],
+            [
+              26.058218,
+              64.528924
+            ],
+            [
+              26.058218,
+              64.462496
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 109,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 100,
+        "source_cell_col": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r100-c190",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.722498,
+              64.462496
+            ],
+            [
+              26.788927,
+              64.462496
+            ],
+            [
+              26.788927,
+              64.528924
+            ],
+            [
+              26.722498,
+              64.528924
+            ],
+            [
+              26.722498,
+              64.462496
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 111,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 100,
+        "source_cell_col": 190
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r100-c200",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.386779,
+              64.462496
+            ],
+            [
+              27.453207,
+              64.462496
+            ],
+            [
+              27.453207,
+              64.528924
+            ],
+            [
+              27.386779,
+              64.528924
+            ],
+            [
+              27.386779,
+              64.462496
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 112,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 100,
+        "source_cell_col": 200
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r100-c210",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.05106,
+              64.462496
+            ],
+            [
+              28.117488,
+              64.462496
+            ],
+            [
+              28.117488,
+              64.528924
+            ],
+            [
+              28.05106,
+              64.528924
+            ],
+            [
+              28.05106,
+              64.462496
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 114,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 100,
+        "source_cell_col": 210
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r100-c220",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.71534,
+              64.462496
+            ],
+            [
+              28.781768,
+              64.462496
+            ],
+            [
+              28.781768,
+              64.528924
+            ],
+            [
+              28.71534,
+              64.528924
+            ],
+            [
+              28.71534,
+              64.462496
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 113,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 100,
+        "source_cell_col": 220
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r100-c230",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.379621,
+              64.462496
+            ],
+            [
+              29.446049,
+              64.462496
+            ],
+            [
+              29.446049,
+              64.528924
+            ],
+            [
+              29.379621,
+              64.528924
+            ],
+            [
+              29.379621,
+              64.462496
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 115,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 100,
+        "source_cell_col": 230
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r110-c140",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.401095,
+              63.798215
+            ],
+            [
+              23.467523,
+              63.798215
+            ],
+            [
+              23.467523,
+              63.864643
+            ],
+            [
+              23.401095,
+              63.864643
+            ],
+            [
+              23.401095,
+              63.798215
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 93,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 110,
+        "source_cell_col": 140
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r110-c150",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.065376,
+              63.798215
+            ],
+            [
+              24.131804,
+              63.798215
+            ],
+            [
+              24.131804,
+              63.864643
+            ],
+            [
+              24.065376,
+              63.864643
+            ],
+            [
+              24.065376,
+              63.798215
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 99,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 110,
+        "source_cell_col": 150
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r110-c160",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.729657,
+              63.798215
+            ],
+            [
+              24.796085,
+              63.798215
+            ],
+            [
+              24.796085,
+              63.864643
+            ],
+            [
+              24.729657,
+              63.864643
+            ],
+            [
+              24.729657,
+              63.798215
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 101,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 110,
+        "source_cell_col": 160
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r110-c170",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.393937,
+              63.798215
+            ],
+            [
+              25.460365,
+              63.798215
+            ],
+            [
+              25.460365,
+              63.864643
+            ],
+            [
+              25.393937,
+              63.864643
+            ],
+            [
+              25.393937,
+              63.798215
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 106,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 110,
+        "source_cell_col": 170
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r110-c180",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.058218,
+              63.798215
+            ],
+            [
+              26.124646,
+              63.798215
+            ],
+            [
+              26.124646,
+              63.864643
+            ],
+            [
+              26.058218,
+              63.864643
+            ],
+            [
+              26.058218,
+              63.798215
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 110,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 110,
+        "source_cell_col": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r110-c190",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.722498,
+              63.798215
+            ],
+            [
+              26.788927,
+              63.798215
+            ],
+            [
+              26.788927,
+              63.864643
+            ],
+            [
+              26.722498,
+              63.864643
+            ],
+            [
+              26.722498,
+              63.798215
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 112,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 110,
+        "source_cell_col": 190
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r110-c200",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.386779,
+              63.798215
+            ],
+            [
+              27.453207,
+              63.798215
+            ],
+            [
+              27.453207,
+              63.864643
+            ],
+            [
+              27.386779,
+              63.864643
+            ],
+            [
+              27.386779,
+              63.798215
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 112,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 110,
+        "source_cell_col": 200
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r110-c210",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.05106,
+              63.798215
+            ],
+            [
+              28.117488,
+              63.798215
+            ],
+            [
+              28.117488,
+              63.864643
+            ],
+            [
+              28.05106,
+              63.864643
+            ],
+            [
+              28.05106,
+              63.798215
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 115,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 110,
+        "source_cell_col": 210
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r110-c220",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.71534,
+              63.798215
+            ],
+            [
+              28.781768,
+              63.798215
+            ],
+            [
+              28.781768,
+              63.864643
+            ],
+            [
+              28.71534,
+              63.864643
+            ],
+            [
+              28.71534,
+              63.798215
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 113,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 110,
+        "source_cell_col": 220
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r110-c230",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.379621,
+              63.798215
+            ],
+            [
+              29.446049,
+              63.798215
+            ],
+            [
+              29.446049,
+              63.864643
+            ],
+            [
+              29.379621,
+              63.864643
+            ],
+            [
+              29.379621,
+              63.798215
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 113,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 110,
+        "source_cell_col": 230
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r110-c240",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.043902,
+              63.798215
+            ],
+            [
+              30.11033,
+              63.798215
+            ],
+            [
+              30.11033,
+              63.864643
+            ],
+            [
+              30.043902,
+              63.864643
+            ],
+            [
+              30.043902,
+              63.798215
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 113,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 110,
+        "source_cell_col": 240
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r120-c120",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.072534,
+              63.133935
+            ],
+            [
+              22.138962,
+              63.133935
+            ],
+            [
+              22.138962,
+              63.200363
+            ],
+            [
+              22.072534,
+              63.200363
+            ],
+            [
+              22.072534,
+              63.133935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 94,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 120,
+        "source_cell_col": 120
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r120-c130",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.736815,
+              63.133935
+            ],
+            [
+              22.803243,
+              63.133935
+            ],
+            [
+              22.803243,
+              63.200363
+            ],
+            [
+              22.736815,
+              63.200363
+            ],
+            [
+              22.736815,
+              63.133935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 93,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 120,
+        "source_cell_col": 130
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r120-c140",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.401095,
+              63.133935
+            ],
+            [
+              23.467523,
+              63.133935
+            ],
+            [
+              23.467523,
+              63.200363
+            ],
+            [
+              23.401095,
+              63.200363
+            ],
+            [
+              23.401095,
+              63.133935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 98,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 120,
+        "source_cell_col": 140
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r120-c150",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.065376,
+              63.133935
+            ],
+            [
+              24.131804,
+              63.133935
+            ],
+            [
+              24.131804,
+              63.200363
+            ],
+            [
+              24.065376,
+              63.200363
+            ],
+            [
+              24.065376,
+              63.133935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 98,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 120,
+        "source_cell_col": 150
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r120-c160",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.729657,
+              63.133935
+            ],
+            [
+              24.796085,
+              63.133935
+            ],
+            [
+              24.796085,
+              63.200363
+            ],
+            [
+              24.729657,
+              63.200363
+            ],
+            [
+              24.729657,
+              63.133935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 107,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 120,
+        "source_cell_col": 160
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r120-c170",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.393937,
+              63.133935
+            ],
+            [
+              25.460365,
+              63.133935
+            ],
+            [
+              25.460365,
+              63.200363
+            ],
+            [
+              25.393937,
+              63.200363
+            ],
+            [
+              25.393937,
+              63.133935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 106,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 120,
+        "source_cell_col": 170
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r120-c180",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.058218,
+              63.133935
+            ],
+            [
+              26.124646,
+              63.133935
+            ],
+            [
+              26.124646,
+              63.200363
+            ],
+            [
+              26.058218,
+              63.200363
+            ],
+            [
+              26.058218,
+              63.133935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 108,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 120,
+        "source_cell_col": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r120-c190",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.722498,
+              63.133935
+            ],
+            [
+              26.788927,
+              63.133935
+            ],
+            [
+              26.788927,
+              63.200363
+            ],
+            [
+              26.722498,
+              63.200363
+            ],
+            [
+              26.722498,
+              63.133935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 107,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 120,
+        "source_cell_col": 190
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r120-c200",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.386779,
+              63.133935
+            ],
+            [
+              27.453207,
+              63.133935
+            ],
+            [
+              27.453207,
+              63.200363
+            ],
+            [
+              27.386779,
+              63.200363
+            ],
+            [
+              27.386779,
+              63.133935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 108,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 120,
+        "source_cell_col": 200
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r120-c210",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.05106,
+              63.133935
+            ],
+            [
+              28.117488,
+              63.133935
+            ],
+            [
+              28.117488,
+              63.200363
+            ],
+            [
+              28.05106,
+              63.200363
+            ],
+            [
+              28.05106,
+              63.133935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 110,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 120,
+        "source_cell_col": 210
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r120-c220",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.71534,
+              63.133935
+            ],
+            [
+              28.781768,
+              63.133935
+            ],
+            [
+              28.781768,
+              63.200363
+            ],
+            [
+              28.71534,
+              63.200363
+            ],
+            [
+              28.71534,
+              63.133935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 110,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 120,
+        "source_cell_col": 220
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r120-c230",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.379621,
+              63.133935
+            ],
+            [
+              29.446049,
+              63.133935
+            ],
+            [
+              29.446049,
+              63.200363
+            ],
+            [
+              29.379621,
+              63.200363
+            ],
+            [
+              29.379621,
+              63.133935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 111,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 120,
+        "source_cell_col": 230
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r120-c240",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.043902,
+              63.133935
+            ],
+            [
+              30.11033,
+              63.133935
+            ],
+            [
+              30.11033,
+              63.200363
+            ],
+            [
+              30.043902,
+              63.200363
+            ],
+            [
+              30.043902,
+              63.133935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 108,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 120,
+        "source_cell_col": 240
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r120-c250",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.708182,
+              63.133935
+            ],
+            [
+              30.77461,
+              63.133935
+            ],
+            [
+              30.77461,
+              63.200363
+            ],
+            [
+              30.708182,
+              63.200363
+            ],
+            [
+              30.708182,
+              63.133935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 110,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 120,
+        "source_cell_col": 250
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r130-c110",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.408253,
+              62.469654
+            ],
+            [
+              21.474681,
+              62.469654
+            ],
+            [
+              21.474681,
+              62.536082
+            ],
+            [
+              21.408253,
+              62.536082
+            ],
+            [
+              21.408253,
+              62.469654
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 91,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 130,
+        "source_cell_col": 110
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r130-c120",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.072534,
+              62.469654
+            ],
+            [
+              22.138962,
+              62.469654
+            ],
+            [
+              22.138962,
+              62.536082
+            ],
+            [
+              22.072534,
+              62.536082
+            ],
+            [
+              22.072534,
+              62.469654
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 97,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 130,
+        "source_cell_col": 120
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r130-c130",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.736815,
+              62.469654
+            ],
+            [
+              22.803243,
+              62.469654
+            ],
+            [
+              22.803243,
+              62.536082
+            ],
+            [
+              22.736815,
+              62.536082
+            ],
+            [
+              22.736815,
+              62.469654
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 91,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 130,
+        "source_cell_col": 130
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r130-c140",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.401095,
+              62.469654
+            ],
+            [
+              23.467523,
+              62.469654
+            ],
+            [
+              23.467523,
+              62.536082
+            ],
+            [
+              23.401095,
+              62.536082
+            ],
+            [
+              23.401095,
+              62.469654
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 95,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 130,
+        "source_cell_col": 140
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r130-c150",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.065376,
+              62.469654
+            ],
+            [
+              24.131804,
+              62.469654
+            ],
+            [
+              24.131804,
+              62.536082
+            ],
+            [
+              24.065376,
+              62.536082
+            ],
+            [
+              24.065376,
+              62.469654
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 99,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 130,
+        "source_cell_col": 150
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r130-c160",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.729657,
+              62.469654
+            ],
+            [
+              24.796085,
+              62.469654
+            ],
+            [
+              24.796085,
+              62.536082
+            ],
+            [
+              24.729657,
+              62.536082
+            ],
+            [
+              24.729657,
+              62.469654
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 107,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 130,
+        "source_cell_col": 160
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r130-c170",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.393937,
+              62.469654
+            ],
+            [
+              25.460365,
+              62.469654
+            ],
+            [
+              25.460365,
+              62.536082
+            ],
+            [
+              25.393937,
+              62.536082
+            ],
+            [
+              25.393937,
+              62.469654
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 100,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 130,
+        "source_cell_col": 170
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r130-c180",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.058218,
+              62.469654
+            ],
+            [
+              26.124646,
+              62.469654
+            ],
+            [
+              26.124646,
+              62.536082
+            ],
+            [
+              26.058218,
+              62.536082
+            ],
+            [
+              26.058218,
+              62.469654
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 102,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 130,
+        "source_cell_col": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r130-c190",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.722498,
+              62.469654
+            ],
+            [
+              26.788927,
+              62.469654
+            ],
+            [
+              26.788927,
+              62.536082
+            ],
+            [
+              26.722498,
+              62.536082
+            ],
+            [
+              26.722498,
+              62.469654
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 101,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 130,
+        "source_cell_col": 190
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r130-c200",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.386779,
+              62.469654
+            ],
+            [
+              27.453207,
+              62.469654
+            ],
+            [
+              27.453207,
+              62.536082
+            ],
+            [
+              27.386779,
+              62.536082
+            ],
+            [
+              27.386779,
+              62.469654
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 101,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 130,
+        "source_cell_col": 200
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r130-c210",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.05106,
+              62.469654
+            ],
+            [
+              28.117488,
+              62.469654
+            ],
+            [
+              28.117488,
+              62.536082
+            ],
+            [
+              28.05106,
+              62.536082
+            ],
+            [
+              28.05106,
+              62.469654
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 101,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 130,
+        "source_cell_col": 210
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r130-c220",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.71534,
+              62.469654
+            ],
+            [
+              28.781768,
+              62.469654
+            ],
+            [
+              28.781768,
+              62.536082
+            ],
+            [
+              28.71534,
+              62.536082
+            ],
+            [
+              28.71534,
+              62.469654
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 107,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 130,
+        "source_cell_col": 220
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r130-c230",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.379621,
+              62.469654
+            ],
+            [
+              29.446049,
+              62.469654
+            ],
+            [
+              29.446049,
+              62.536082
+            ],
+            [
+              29.379621,
+              62.536082
+            ],
+            [
+              29.379621,
+              62.469654
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 99,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 130,
+        "source_cell_col": 230
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r130-c240",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.043902,
+              62.469654
+            ],
+            [
+              30.11033,
+              62.469654
+            ],
+            [
+              30.11033,
+              62.536082
+            ],
+            [
+              30.043902,
+              62.536082
+            ],
+            [
+              30.043902,
+              62.469654
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 102,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 130,
+        "source_cell_col": 240
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r130-c250",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.708182,
+              62.469654
+            ],
+            [
+              30.77461,
+              62.469654
+            ],
+            [
+              30.77461,
+              62.536082
+            ],
+            [
+              30.708182,
+              62.536082
+            ],
+            [
+              30.708182,
+              62.469654
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 105,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 130,
+        "source_cell_col": 250
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r140-c120",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.072534,
+              61.805373
+            ],
+            [
+              22.138962,
+              61.805373
+            ],
+            [
+              22.138962,
+              61.871801
+            ],
+            [
+              22.072534,
+              61.871801
+            ],
+            [
+              22.072534,
+              61.805373
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 94,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 140,
+        "source_cell_col": 120
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r140-c130",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.736815,
+              61.805373
+            ],
+            [
+              22.803243,
+              61.805373
+            ],
+            [
+              22.803243,
+              61.871801
+            ],
+            [
+              22.736815,
+              61.871801
+            ],
+            [
+              22.736815,
+              61.805373
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 94,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 140,
+        "source_cell_col": 130
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r140-c140",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.401095,
+              61.805373
+            ],
+            [
+              23.467523,
+              61.805373
+            ],
+            [
+              23.467523,
+              61.871801
+            ],
+            [
+              23.401095,
+              61.871801
+            ],
+            [
+              23.401095,
+              61.805373
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 94,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 140,
+        "source_cell_col": 140
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r140-c150",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.065376,
+              61.805373
+            ],
+            [
+              24.131804,
+              61.805373
+            ],
+            [
+              24.131804,
+              61.871801
+            ],
+            [
+              24.065376,
+              61.871801
+            ],
+            [
+              24.065376,
+              61.805373
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 104,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 140,
+        "source_cell_col": 150
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r140-c160",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.729657,
+              61.805373
+            ],
+            [
+              24.796085,
+              61.805373
+            ],
+            [
+              24.796085,
+              61.871801
+            ],
+            [
+              24.729657,
+              61.871801
+            ],
+            [
+              24.729657,
+              61.805373
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 92,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 140,
+        "source_cell_col": 160
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r140-c170",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.393937,
+              61.805373
+            ],
+            [
+              25.460365,
+              61.805373
+            ],
+            [
+              25.460365,
+              61.871801
+            ],
+            [
+              25.393937,
+              61.871801
+            ],
+            [
+              25.393937,
+              61.805373
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 94,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 140,
+        "source_cell_col": 170
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r140-c180",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.058218,
+              61.805373
+            ],
+            [
+              26.124646,
+              61.805373
+            ],
+            [
+              26.124646,
+              61.871801
+            ],
+            [
+              26.058218,
+              61.871801
+            ],
+            [
+              26.058218,
+              61.805373
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 95,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 140,
+        "source_cell_col": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r140-c200",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.386779,
+              61.805373
+            ],
+            [
+              27.453207,
+              61.805373
+            ],
+            [
+              27.453207,
+              61.871801
+            ],
+            [
+              27.386779,
+              61.871801
+            ],
+            [
+              27.386779,
+              61.805373
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 104,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 140,
+        "source_cell_col": 200
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r140-c210",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.05106,
+              61.805373
+            ],
+            [
+              28.117488,
+              61.805373
+            ],
+            [
+              28.117488,
+              61.871801
+            ],
+            [
+              28.05106,
+              61.871801
+            ],
+            [
+              28.05106,
+              61.805373
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 92,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 140,
+        "source_cell_col": 210
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r140-c220",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.71534,
+              61.805373
+            ],
+            [
+              28.781768,
+              61.805373
+            ],
+            [
+              28.781768,
+              61.871801
+            ],
+            [
+              28.71534,
+              61.871801
+            ],
+            [
+              28.71534,
+              61.805373
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 98,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 140,
+        "source_cell_col": 220
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r150-c120",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.072534,
+              61.141093
+            ],
+            [
+              22.138962,
+              61.141093
+            ],
+            [
+              22.138962,
+              61.207521
+            ],
+            [
+              22.072534,
+              61.207521
+            ],
+            [
+              22.072534,
+              61.141093
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 82,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 150,
+        "source_cell_col": 120
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r150-c130",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.736815,
+              61.141093
+            ],
+            [
+              22.803243,
+              61.141093
+            ],
+            [
+              22.803243,
+              61.207521
+            ],
+            [
+              22.736815,
+              61.207521
+            ],
+            [
+              22.736815,
+              61.141093
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 82,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 150,
+        "source_cell_col": 130
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r150-c140",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.401095,
+              61.141093
+            ],
+            [
+              23.467523,
+              61.141093
+            ],
+            [
+              23.467523,
+              61.207521
+            ],
+            [
+              23.401095,
+              61.207521
+            ],
+            [
+              23.401095,
+              61.141093
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 87,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 150,
+        "source_cell_col": 140
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r150-c160",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.729657,
+              61.141093
+            ],
+            [
+              24.796085,
+              61.141093
+            ],
+            [
+              24.796085,
+              61.207521
+            ],
+            [
+              24.729657,
+              61.207521
+            ],
+            [
+              24.729657,
+              61.141093
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 89,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 150,
+        "source_cell_col": 160
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r150-c170",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.393937,
+              61.141093
+            ],
+            [
+              25.460365,
+              61.141093
+            ],
+            [
+              25.460365,
+              61.207521
+            ],
+            [
+              25.393937,
+              61.207521
+            ],
+            [
+              25.393937,
+              61.141093
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 91,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 150,
+        "source_cell_col": 170
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r150-c180",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.058218,
+              61.141093
+            ],
+            [
+              26.124646,
+              61.141093
+            ],
+            [
+              26.124646,
+              61.207521
+            ],
+            [
+              26.058218,
+              61.207521
+            ],
+            [
+              26.058218,
+              61.141093
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 92,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 150,
+        "source_cell_col": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r150-c200",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.386779,
+              61.141093
+            ],
+            [
+              27.453207,
+              61.141093
+            ],
+            [
+              27.453207,
+              61.207521
+            ],
+            [
+              27.386779,
+              61.207521
+            ],
+            [
+              27.386779,
+              61.141093
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 91,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 150,
+        "source_cell_col": 200
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r150-c210",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.05106,
+              61.141093
+            ],
+            [
+              28.117488,
+              61.141093
+            ],
+            [
+              28.117488,
+              61.207521
+            ],
+            [
+              28.05106,
+              61.207521
+            ],
+            [
+              28.05106,
+              61.141093
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 92,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 150,
+        "source_cell_col": 210
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r150-c220",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.71534,
+              61.141093
+            ],
+            [
+              28.781768,
+              61.141093
+            ],
+            [
+              28.781768,
+              61.207521
+            ],
+            [
+              28.71534,
+              61.207521
+            ],
+            [
+              28.71534,
+              61.141093
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 90,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 150,
+        "source_cell_col": 220
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r160-c110",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.408253,
+              60.476812
+            ],
+            [
+              21.474681,
+              60.476812
+            ],
+            [
+              21.474681,
+              60.54324
+            ],
+            [
+              21.408253,
+              60.54324
+            ],
+            [
+              21.408253,
+              60.476812
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 74,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 160,
+        "source_cell_col": 110
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r160-c120",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.072534,
+              60.476812
+            ],
+            [
+              22.138962,
+              60.476812
+            ],
+            [
+              22.138962,
+              60.54324
+            ],
+            [
+              22.072534,
+              60.54324
+            ],
+            [
+              22.072534,
+              60.476812
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 71,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 160,
+        "source_cell_col": 120
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r160-c130",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.736815,
+              60.476812
+            ],
+            [
+              22.803243,
+              60.476812
+            ],
+            [
+              22.803243,
+              60.54324
+            ],
+            [
+              22.736815,
+              60.54324
+            ],
+            [
+              22.736815,
+              60.476812
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 77,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 160,
+        "source_cell_col": 130
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r160-c140",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.401095,
+              60.476812
+            ],
+            [
+              23.467523,
+              60.476812
+            ],
+            [
+              23.467523,
+              60.54324
+            ],
+            [
+              23.401095,
+              60.54324
+            ],
+            [
+              23.401095,
+              60.476812
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 76,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 160,
+        "source_cell_col": 140
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r160-c150",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.065376,
+              60.476812
+            ],
+            [
+              24.131804,
+              60.476812
+            ],
+            [
+              24.131804,
+              60.54324
+            ],
+            [
+              24.065376,
+              60.54324
+            ],
+            [
+              24.065376,
+              60.476812
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 88,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 160,
+        "source_cell_col": 150
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r160-c160",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.729657,
+              60.476812
+            ],
+            [
+              24.796085,
+              60.476812
+            ],
+            [
+              24.796085,
+              60.54324
+            ],
+            [
+              24.729657,
+              60.54324
+            ],
+            [
+              24.729657,
+              60.476812
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 89,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 160,
+        "source_cell_col": 160
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r160-c170",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.393937,
+              60.476812
+            ],
+            [
+              25.460365,
+              60.476812
+            ],
+            [
+              25.460365,
+              60.54324
+            ],
+            [
+              25.393937,
+              60.54324
+            ],
+            [
+              25.393937,
+              60.476812
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 91,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 160,
+        "source_cell_col": 170
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r160-c180",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.058218,
+              60.476812
+            ],
+            [
+              26.124646,
+              60.476812
+            ],
+            [
+              26.124646,
+              60.54324
+            ],
+            [
+              26.058218,
+              60.54324
+            ],
+            [
+              26.058218,
+              60.476812
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 88,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 160,
+        "source_cell_col": 180
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r160-c190",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.722498,
+              60.476812
+            ],
+            [
+              26.788927,
+              60.476812
+            ],
+            [
+              26.788927,
+              60.54324
+            ],
+            [
+              26.722498,
+              60.54324
+            ],
+            [
+              26.722498,
+              60.476812
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 89,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 160,
+        "source_cell_col": 190
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "coniferous-2001-r160-c200",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.386779,
+              60.476812
+            ],
+            [
+              27.453207,
+              60.476812
+            ],
+            [
+              27.453207,
+              60.54324
+            ],
+            [
+              27.386779,
+              60.54324
+            ],
+            [
+              27.386779,
+              60.476812
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "entity_type": "ConiferousForest",
+        "year": 2001,
+        "vap_doy": 96,
+        "crs": "EPSG:4326",
+        "grid_width": 318,
+        "grid_height": 202,
+        "sensor": "MODIS Terra",
+        "algorithm": "VAP derived from Fractional Snow Cover time series",
+        "source_cell_row": 160,
+        "source_cell_col": 200
+      }
+    }
+  ]
+}

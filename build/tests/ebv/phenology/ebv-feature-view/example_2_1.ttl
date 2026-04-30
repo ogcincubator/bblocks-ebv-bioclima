@@ -1,0 +1,17 @@
+@prefix ebv: <https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ebv:algorithm "VAP derived from Fractional Snow Cover time series" ;
+    ebv:anomaly "not_applicable_sample" ;
+    ebv:crs "EPSG:4326" ;
+    ebv:entity_type <https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/ConiferousForest> ;
+    ebv:grid_height 202 ;
+    ebv:grid_width 318 ;
+    ebv:max_doy 125 ;
+    ebv:mean_doy 106.26 ;
+    ebv:min_doy 71 ;
+    ebv:sensor "MODIS Terra" ;
+    ebv:valid_percent 0.1915 ;
+    ebv:vap_doy 106.26 ;
+    ebv:year 2001 .
+

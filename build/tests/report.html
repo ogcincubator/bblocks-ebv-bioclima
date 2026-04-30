@@ -64,7 +64,7 @@
     <body>
         <div class="container">
             <h1 class="title">Building blocks validation report</h1>
-            <small class="datetime">Generated at 2026-04-30T10:05:27.771537+00:00</small>
+            <small class="datetime">Generated at 2026-04-30T10:07:55.152936+00:00</small>
                 <p class="summary fw-semibold text-danger">
                     Number of passing building blocks: 17 / 18 (94.44%)
                 </p>
@@ -528,7 +528,7 @@
                             <div class="accordion-collapse collapse show" id="bblock-collapse-syke.ebv.phenology.ebv-feature-view">
                                 <div class="accordion-body">
                                         <p class="summary fw-semibold text-danger">
-                                            Test passed: 0 / 1
+                                            Test passed: 0 / 2
                                         </p>
                                         <div class="card mb-2 validation-item " id="item-syke.ebv.phenology.ebv-feature-view-1">
                                             <div class="card-body">
@@ -1553,6 +1553,59 @@ On instance:
                    &#x27;type&#x27;: &#x27;Feature&#x27;}],
      &#x27;name&#x27;: &#x27;EBV_Phenology_Finland_VAP_Real&#x27;,
      &#x27;type&#x27;: &#x27;FeatureCollection&#x27;}</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card mb-2 validation-item " id="item-syke.ebv.phenology.ebv-feature-view-2">
+                                            <div class="card-body">
+                                                <div class="card-title mb-0 anchor-container">
+                                                    <button type="button" class="btn btn-sm btn-primary collapsed"
+                                                            data-bs-toggle="collapse" data-bs-target="#uid-5"
+                                                            aria-expanded="false" aria-controls="uid-5"
+                                                            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                                                        <i class="bi bi-caret-right-fill caret"></i>
+                                                        Details
+                                                    </button>
+                                                    <a href="ebv/phenology/ebv-feature-view/example_2_1.json" target="_blank">example_2_1.json</a>
+                                                    <span class="badge bg-secondary example">Example</span>
+                                                    <a class="anchor" href="#item-syke.ebv.phenology.ebv-feature-view-2">¶</a>
+                                                    <div class="float-end">
+                                                            <span class="badge text-bg-danger me-2">Failed</span>
+                                                    </div>
+                                                </div>
+                                                <div class="card-text mt-2 validation-text collapse" id="uid-5">
+                                                    <div class="validation-text-inner">
+                                                                    <div class="font-monospace subsection-title mt-2">Files</div>
+                                                                    <div class="font-monospace entry-message section-files ">Using examples/finland-vap-grid-sample-2001.json from examples</div>
+                                                                    <div class="font-monospace entry-message section-files ">JSON-LD context is present - uplifting</div>
+                                                                    <div class="font-monospace entry-message section-files ">Output JSON-LD example_2_1.jsonld created</div>
+                                                                    <div class="font-monospace entry-message section-files ">Output Turtle example_2_1.ttl created</div>
+                                                                    <div class="font-monospace subsection-title mt-2">JSON Schema</div>
+                                                                    <div class="font-monospace entry-message section-json_schema text-danger">ValidationError: 106.26 is not of type &#x27;integer&#x27;
+
+Failed validating &#x27;type&#x27; in schema[&#x27;properties&#x27;][&#x27;vap_doy&#x27;]:
+    {&#x27;description&#x27;: &#x27;Integer day of year marking the start of the &#x27;
+                    &#x27;Vegetation Active Period.&#x27;,
+     &#x27;title&#x27;: &#x27;Start of VAP (Day of Year)&#x27;,
+     &#x27;type&#x27;: &#x27;integer&#x27;,
+     &#x27;x-jsonld-id&#x27;: &#x27;https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#vap_doy&#x27;,
+     &#x27;x-jsonld-type&#x27;: &#x27;http://www.w3.org/2001/XMLSchema#integer&#x27;}
+
+On instance[&#x27;vap_doy&#x27;]:
+    106.26</div>
+                                                                    <div class="font-monospace subsection-title mt-2">SHACL</div>
+                                                                    <div class="font-monospace entry-message section-shacl ">Validation result for https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl:
+  Validation Report
+  Conforms: True
+  </div>
+                                                                    <div class="font-monospace entry-message section-shacl ">Focus nodes for https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl:
+ - Shape geojson:FeatureShape: *none*
+ - Shape geojson:GeometryShape/sh:or/rdf:rest/rdf:first: *none*
+ - Shape geojson:GeometryShape: *none*
+ - Shape geojson:LinkShape: *none*
+ - Shape geojson:GeometryShape/sh:or/rdf:first: *none*
+</div>
                                                     </div>
                                                 </div>
                                             </div>
