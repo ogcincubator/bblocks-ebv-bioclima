@@ -18,11 +18,11 @@
     }
   ],
   "dependsOn": [
+    "syke.ebv.phenology.phenology-indicators",
     "ogc.geo.features.feature",
     "syke.ebv.phenology.ebv-profile",
-    "syke.ebv.phenology.phenology-indicators",
-    "syke.ebv.phenology.covjson-coverage",
-    "syke.ebv.phenology.data-provenance"
+    "syke.ebv.phenology.data-provenance",
+    "syke.ebv.phenology.covjson-coverage"
   ],
   "tags": [
     "feature",
