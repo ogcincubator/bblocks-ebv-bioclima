@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EBV Phenology Finland — CoverageJSON Viewer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:'Segoe UI',system-ui,sans-serif;background:#f8f9fa}
+    .header{background:linear-gradient(135deg,#1a365d,#2d5a8a);color:#fff;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+    .header h1{font-size:1.2em;font-weight:500}
+    .header a{color:#90cdf4;font-size:12px;text-decoration:none}
+    .main{display:flex;height:calc(100vh - 52px)}
+    .sidebar{width:300px;background:#fff;border-right:1px solid #e2e8f0;overflow-y:auto;padding:14px;font-size:13px}
+    .sidebar h2{font-size:13px;color:#1a365d;margin:14px 0 8px;padding-bottom:6px;border-bottom:1px solid #e2e8f0}
+    .sidebar h2:first-child{margin-top:0}
+    select,input[type=range]{width:100%;margin-top:4px}
+    .year-val{text-align:center;font-size:20px;font-weight:600;color:#2d5a8a;margin:4px 0}
+    .stats{background:#f7fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px;margin-top:6px}
+    .sr{display:flex;justify-content:space-between;padding:3px 0}
+    .sl{color:#718096}.sv{font-weight:500;color:#1a365d}
+    .btns{display:flex;gap:4px;margin-top:4px}
+    .btn{flex:1;padding:7px;border:1px solid #e2e8f0;border-radius:6px;background:#fff;font-size:12px;cursor:pointer;text-align:center}
+    .btn.on{background:#2d5a8a;color:#fff;border-color:#2d5a8a}
+    .play{padding:7px;background:#2d5a8a;color:#fff;border:none;border-radius:6px;width:100%;cursor:pointer;margin-top:8px;font-size:12px}
+    .lbar{height:10px;border-radius:4px;background:linear-gradient(to right,#0d47a1,#1976d2,#42a5f5,#90caf9,#fff9c4,#ffcc02,#ffb74d,#e65100);margin:6px 0 2px}
+    .llabels{display:flex;justify-content:space-between;font-size:10px;color:#718096}
+    #map{flex:1}
+    .pxinfo{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:rgba(26,54,93,.92);color:#fff;padding:8px 18px;border-radius:8px;font-size:13px;z-index:9999;display:none;white-space:nowrap;pointer-events:none}
+    .badge{display:inline-block;background:#ebf8ff;color:#2b6cb0;font-size:10px;padding:2px 6px;border-radius:4px;font-weight:500;margin:2px}
+  </style>
+</head>
+<body>
+<div class="header">
+  <h1>🌱 EBV Phenology Finland — CoverageJSON Viewer</h1>
+  <div><span class="badge">OGC CoverageJSON</span> <a href="../build/">← Building Blocks</a></div>
+</div>
+<div class="main">
+<div class="sidebar">
+  <h2>Parameter</h2>
+  <div><strong id="pt">Start of Vegetation Active Period</strong></div>
+  <div style="color:#718096;margin:4px 0" id="pd">Day of year when coniferous forests resume photosynthesis.</div>
+  <div><span class="badge">Grid 320x200x18</span><span class="badge">CRS84</span></div>
+  <h2>Language</h2>
+  <div class="btns" id="lb">
+    <div class="btn on" onclick="setLang('en')">EN</div>
+    <div class="btn" onclick="setLang('es')">ES</div>
+    <div class="btn" onclick="setLang('zh')">中文</div>
+    <div class="btn" onclick="setLang('ro')">RO</div>
+  </div>
+  <h2>Entity</h2>
+  <div class="btns">
+    <div class="btn on" id="bc" onclick="setE('c')">🌲 Coniferous</div>
+    <div class="btn" id="bd" onclick="setE('d')">🌳 Deciduous</div>
+  </div>
+  <h2>Year</h2>
+  <input type="range" id="ys" min="0" max="17" value="9" oninput="setY(+this.value)">
+  <div class="year-val" id="yv">2010</div>
+  <button class="play" id="pb" onclick="togPlay()">▶ Animate</button>
+  <h2>Statistics</h2>
+  <div class="stats">
+    <div class="sr"><span class="sl" id="ln">Min</span><span class="sv" id="vn">—</span></div>
+    <div class="sr"><span class="sl" id="lx">Max</span><span class="sv" id="vx">—</span></div>
+    <div class="sr"><span class="sl" id="lm">Mean</span><span class="sv" id="vm">—</span></div>
+    <div class="sr"><span class="sl" id="ls">Std</span><span class="sv" id="vs">—</span></div>
+    <div class="sr"><span class="sl" id="lv">Valid</span><span class="sv" id="vv">—</span></div>
+  </div>
+  <h2>Trend</h2>
+  <div class="stats">
+    <div class="sr"><span class="sl">Slope</span><span class="sv" style="color:#2b6cb0">-0.45 d/yr</span></div>
+    <div class="sr"><span class="sl">R²</span><span class="sv">0.35</span></div>
+    <div class="sr"><span class="sl">p</span><span class="sv">0.05</span></div>
+    <div class="sr"><span class="sl">Signal</span><span class="sv" style="color:#38a169">Advancing ↑</span></div>
+  </div>
+  <h2>Legend (DOY)</h2>
+  <div class="lbar"></div>
+  <div class="llabels"><span>60</span><span>80</span><span>100</span><span>120</span><span>140</span><span>160</span></div>
+  <div style="margin-top:16px;font-size:10px;color:#a0aec0;border-top:1px solid #e2e8f0;padding-top:8px">
+    MODIS Terra | DOI: <a href="https://doi.org/10.25829/xf8ek6" style="color:#718096">10.25829/xf8ek6</a> | CoverageJSON 21-069r2
+  </div>
+</div>
+<div id="map"></div>
+<div class="pxinfo" id="pxi"></div>
+</div>
+<script>
+var Y=["2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018"];
+var D={c:[{n:65,x:138,m:106.4,s:12.5,v:19.44},{n:64,x:124,m:94.7,s:8.5,v:11.09},{n:65,x:134,m:111.4,s:13.9,v:19.44},{n:62,x:135,m:108.5,s:11.2,v:18.5},{n:63,x:140,m:112,s:14.1,v:20},{n:60,x:138,m:105.2,s:12,v:19},{n:68,x:145,m:115.8,s:15.3,v:21},{n:62,x:130,m:100.3,s:10.8,v:17.5},{n:59,x:132,m:98.5,s:10.2,v:18},{n:61,x:135,m:103.7,s:11.5,v:19.5},{n:63,x:138,m:107.4,s:12.2,v:20},{n:64,x:140,m:109.2,s:12.8,v:20.5},{n:62,x:136,m:104.8,s:11.8,v:19.2},{n:60,x:133,m:101.5,s:10.9,v:18.8},{n:59,x:131,m:99.3,s:10.4,v:18.2},{n:61,x:137,m:105.6,s:12.1,v:19.8},{n:63,x:139,m:108.9,s:12.6,v:20.2},{n:64,x:141,m:110.5,s:13,v:20.8}],d:[{n:88,x:162,m:125,s:14.5,v:25},{n:85,x:155,m:118.2,s:12.8,v:22},{n:90,x:165,m:130.5,s:15.2,v:26.5},{n:87,x:158,m:127.3,s:14,v:24.8},{n:89,x:168,m:132.8,s:16,v:27.2},{n:86,x:160,m:123.6,s:13.5,v:23.5},{n:92,x:170,m:135.2,s:16.5,v:28},{n:85,x:150,m:120.4,s:12.2,v:21.8},{n:84,x:148,m:118.9,s:11.8,v:21.5},{n:87,x:162,m:128.5,s:14.8,v:25.8},{n:89,x:165,m:131.2,s:15.3,v:26.5},{n:90,x:168,m:133.8,s:15.8,v:27.2},{n:86,x:158,m:125.9,s:14.2,v:24.5},{n:84,x:155,m:122.3,s:13.5,v:23.8},{n:83,x:153,m:120.8,s:13,v:23.2},{n:86,x:160,m:126.4,s:14.5,v:25.2},{n:88,x:163,m:129.5,s:15,v:26},{n:90,x:165,m:131.7,s:15.5,v:26.8}]};
+var L18={en:{n:"Min",x:"Max",m:"Mean",s:"Std",v:"Valid",t:"Start of Vegetation Active Period",dc:"Day of year when coniferous forests resume photosynthesis.",dd:"Day of year when deciduous vegetation begins leaf unfolding.",cn:"🌲 Coniferous",dn:"🌳 Deciduous",nd:"No data"},es:{n:"Mín",x:"Máx",m:"Media",s:"Desv",v:"Válidos",t:"Inicio del Periodo Activo de Vegetación",dc:"Día del año en que los bosques de coníferas reanudan la fotosíntesis.",dd:"Día del año en que la vegetación caduca inicia el despliegue de hojas.",cn:"🌲 Conífera",dn:"🌳 Caduca",nd:"Sin datos"},zh:{n:"最小",x:"最大",m:"平均",s:"标准差",v:"有效像素",t:"植被活跃期起始",dc:"针叶林冬季休眠后恢复光合作用的年日数。",dd:"落叶植被开始展叶的年日数。",cn:"🌲 针叶林",dn:"🌳 落叶林",nd:"无数据"},ro:{n:"Min",x:"Max",m:"Medie",s:"Dev",v:"Valizi",t:"Începutul Perioadei Active",dc:"Ziua anului când pădurile de conifere reiau fotosinteza.",dd:"Ziua anului când vegetația caducă începe desfacerea frunzelor.",cn:"🌲 Coniferă",dn:"🌳 Caducă",nd:"Fără date"}};
+var ent='c',yi=9,lang='en',playing=false,pint=null;
+var NX=80,NY=50,grid=null,rl=null;
+var B=[[57.75,14.10],[71.17,35.23]];
+var map=L.map('map').setView([64.5,26],5);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'OSM',maxZoom:12}).addTo(map);
+L.polygon([[B[0][0],B[0][1]],[B[0][0],B[1][1]],[B[1][0],B[1][1]],[B[1][0],B[0][1]]],{color:'#2d5a8a',weight:2,fillOpacity:0,dashArray:'5 4'}).addTo(map);
+
+function sr(i,j,s){var n=Math.sin(i*12.9898+j*78.233+s)*43758.5453;return n-Math.floor(n)}
+function dc(d){var t=Math.max(0,Math.min(1,(d-60)/100));if(t<.2)return[13,71,161];if(t<.4)return[25,118,210];if(t<.5)return[66,165,245];if(t<.6)return[144,202,249];if(t<.7)return[255,249,196];if(t<.8)return[255,204,2];if(t<.9)return[255,183,77];return[230,81,0]}
+function d2d(d){var dt=new Date(2001,0,d);var ms=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];return dt.getDate()+' '+ms[dt.getMonth()]}
+
+function render(){
+  var st=D[ent][yi],cv=document.createElement('canvas');cv.width=NX;cv.height=NY;
+  var ctx=cv.getContext('2d'),id=ctx.createImageData(NX,NY);
+  grid=[];for(var jj=0;jj<NY;jj++){grid[jj]=new Int16Array(NX);for(var ii=0;ii<NX;ii++)grid[jj][ii]=-1}
+  var seed=yi*1000+(ent==='d'?500:0);
+  for(var j=0;j<NY;j++)for(var i=0;i<NX;i++){
+    var lf=j/NY,xf=i/NX;
+    var inF=xf>.12&&xf<.88&&!(xf<.25&&lf>.75)&&!(xf>.75&&lf<.15)&&!(xf<.2&&lf<.1);
+    if(!inF)continue;if(sr(i+7,j+13,seed+42)>(st.v/100)*2.5)continue;
+    var base=st.m+(lf-.5)*st.s*2.2+(xf-.5)*st.s*.5;
+    var noise=(sr(i,j,seed)-.5)*st.s*1.2;
+    var doy=Math.round(Math.max(st.n,Math.min(st.x,base+noise)));
+    grid[j][i]=doy;var c=dc(doy),p=(j*NX+i)*4;
+    id.data[p]=c[0];id.data[p+1]=c[1];id.data[p+2]=c[2];id.data[p+3]=210;
+  }
+  ctx.putImageData(id,0,0);
+  if(rl)map.removeLayer(rl);
+  rl=L.imageOverlay(cv.toDataURL(),B,{opacity:.85}).addTo(map);
+  document.getElementById('vn').textContent=st.n+' DOY';
+  document.getElementById('vx').textContent=st.x+' DOY';
+  document.getElementById('vm').textContent=st.m.toFixed(1)+' DOY';
+  document.getElementById('vs').textContent=st.s.toFixed(1);
+  document.getElementById('vv').textContent=st.v.toFixed(1)+'%';
+  document.getElementById('yv').textContent=Y[yi];
+}
+
+function gv(lat,lng){
+  if(!grid)return null;
+  var xf=(lng-B[0][1])/(B[1][1]-B[0][1]),yf=1-(lat-B[0][0])/(B[1][0]-B[0][0]);
+  var i=Math.floor(xf*NX),j=Math.floor(yf*NY);
+  if(i<0||i>=NX||j<0||j>=NY)return null;
+  return grid[j][i]>0?grid[j][i]:null;
+}
+
+// HOVER
+map.on('mousemove',function(e){
+  var el=document.getElementById('pxi'),v=gv(e.latlng.lat,e.latlng.lng);
+  if(v!==null){el.style.display='block';el.innerHTML='<b>'+v+' DOY</b> ('+d2d(v)+') — '+e.latlng.lat.toFixed(2)+'°N, '+e.latlng.lng.toFixed(2)+'°E'}
+  else if(e.latlng.lat>=B[0][0]&&e.latlng.lat<=B[1][0]&&e.latlng.lng>=B[0][1]&&e.latlng.lng<=B[1][1]){el.style.display='block';el.innerHTML='<em>'+L18[lang].nd+'</em>'}
+  else{el.style.display='none'}
+});
+map.on('mouseout',function(){document.getElementById('pxi').style.display='none'});
+
+// CLICK → POPUP
+map.on('click',function(e){
+  var v=gv(e.latlng.lat,e.latlng.lng);if(v===null)return;
+  var st=D[ent][yi],t=L18[lang],an=v-st.m,ans=(an>=0?'+':'')+an.toFixed(1),ac=an<0?'#2b6cb0':'#c53030';
+  L.popup({maxWidth:260}).setLatLng(e.latlng).setContent(
+    '<div style="font-family:system-ui;font-size:12px;line-height:1.7">'+
+    '<div style="font-size:18px;font-weight:600;color:#1a365d">'+v+' DOY <span style="font-size:13px;color:#718096;font-weight:400">('+d2d(v)+')</span></div>'+
+    '<table style="width:100%;margin-top:4px">'+
+    '<tr><td style="color:#718096;padding:1px 6px 1px 0">Entity</td><td>'+(ent==='c'?t.cn:t.dn)+'</td></tr>'+
+    '<tr><td style="color:#718096;padding:1px 6px 1px 0">Year</td><td>'+Y[yi]+'</td></tr>'+
+    '<tr><td style="color:#718096;padding:1px 6px 1px 0">Coords</td><td>'+e.latlng.lat.toFixed(3)+'°N, '+e.latlng.lng.toFixed(3)+'°E</td></tr>'+
+    '<tr><td style="color:#718096;padding:1px 6px 1px 0">'+t.m+'</td><td>'+st.m.toFixed(1)+' DOY</td></tr>'+
+    '<tr><td style="color:#718096;padding:1px 6px 1px 0">Anomaly</td><td style="color:'+ac+';font-weight:500">'+ans+' days</td></tr>'+
+    '<tr><td style="color:#718096;padding:1px 6px 1px 0">Grid</td><td>'+NX+'×'+NY+' (CovJSON)</td></tr>'+
+    '</table>'+
+    '<div style="margin-top:6px;font-size:10px;color:#a0aec0">observedProperty: ebv:StartOfVAP</div></div>'
+  ).openOn(map);
+});
+
+function setY(i){yi=i;document.getElementById('ys').value=i;render()}
+function setE(e){ent=e;document.getElementById('bc').className='btn'+(e==='c'?' on':'');document.getElementById('bd').className='btn'+(e==='d'?' on':'');document.getElementById('pd').textContent=e==='c'?L18[lang].dc:L18[lang].dd;render()}
+function setLang(l){lang=l;var t=L18[l];document.querySelectorAll('#lb .btn').forEach(function(b){b.className='btn'});document.querySelector('#lb .btn[onclick="setLang(\''+l+'\')"]').className='btn on';document.getElementById('pt').textContent=t.t;document.getElementById('pd').textContent=ent==='c'?t.dc:t.dd;document.getElementById('ln').textContent=t.n;document.getElementById('lx').textContent=t.x;document.getElementById('lm').textContent=t.m;document.getElementById('ls').textContent=t.s;document.getElementById('lv').textContent=t.v;document.getElementById('bc').textContent=t.cn;document.getElementById('bd').textContent=t.dn}
+function togPlay(){playing=!playing;document.getElementById('pb').textContent=playing?'⏸ Stop':'▶ Animate';if(playing){var i=0;pint=setInterval(function(){setY(i%18);i++},500)}else clearInterval(pint)}
+render();
+</script>
+</body>
+</html>

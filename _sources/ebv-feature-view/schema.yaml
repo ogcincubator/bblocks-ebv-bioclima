@@ -1,0 +1,53 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+description: EBV phenology properties for map feature view
+type: object
+properties:
+  entity_type:
+    type: string
+    description: Forest entity type (Coniferous, Deciduous)
+  year:
+    type: integer
+    description: Observation year
+  vap_doy:
+    type: integer
+    description: Start of Vegetation Active Period in Day of Year
+  mean_doy:
+    type: number
+    description: Mean DOY across valid pixels for this band
+  min_doy:
+    type: integer
+    description: Minimum DOY value in this band
+  max_doy:
+    type: integer
+    description: Maximum DOY value in this band
+  stddev:
+    type: number
+    description: Standard deviation of DOY values
+  valid_percent:
+    type: number
+    description: Percentage of valid (non-masked) pixels
+  crs:
+    type: string
+    description: Coordinate reference system
+  grid_width:
+    type: integer
+    description: Number of grid columns
+  grid_height:
+    type: integer
+    description: Number of grid rows
+  sensor:
+    type: string
+    description: Source sensor platform
+  algorithm:
+    type: string
+    description: Derivation algorithm
+  trend_slope:
+    type: number
+    description: Linear trend slope in days per year
+  anomaly:
+    type: string
+    description: Whether this year is anomalous
+required:
+  - entity_type
+  - year
+  - vap_doy

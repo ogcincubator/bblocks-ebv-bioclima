@@ -1,0 +1,14 @@
+prefixes:
+  ebv: https://w3id.org/ogc/hosted/ebv-phenology/
+
+examples:
+  - title: Finland VAP feature collection (map view)
+    content: |
+      GeoJSON FeatureCollection for map visualization. Each feature represents one 
+      annual raster band with Finland bounding box geometry. Properties are semantically 
+      linked to EBV ontology and CoverageJSON building blocks via context.jsonld.
+      Click on map features to see linked property descriptions.
+    base-uri: http://example.com/ebv-features/
+    snippets:
+      - language: json
+        ref: examples/finland-vap-features.json
