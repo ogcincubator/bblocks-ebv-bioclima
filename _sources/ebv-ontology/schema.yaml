@@ -1,6 +1,0 @@
-$schema: https://json-schema.org/draft/2020-12/schema
-description: EBV Phenology Ontology concept reference
-type: object
-properties:
-  concept_uri: {type: string}
-  labels: {type: object}
