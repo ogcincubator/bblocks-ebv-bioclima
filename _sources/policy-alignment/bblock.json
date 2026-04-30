@@ -1,13 +1,23 @@
 {
+  "$schema": "metaschema.yaml",
   "name": "Policy Alignment",
   "abstract": "Policy-relevance and alignment record for EBV phenology data and derived indicators.",
   "status": "under-development",
-  "dateTimeAddition": "2026-04-30T00:00:00Z",
+  "dateTimeAddition": "2024-01-01T00:00:00Z",
   "itemClass": "schema",
-  "register": "ogc-building-block-register",
-  "version": "0.1",
+  "register": "ogc-building-block-examples",
+  "version": "1.0",
+  "dateOfLastChange": "2026-04-30",
+  "sources": [],
   "dependsOn": [
-    "syke.ebv.phenology.phenology-indicators",
-    "syke.ebv.phenology.data-provenance"
-  ]
+    "syke.ebv.phenology.covjson-coverage"
+  ],
+  "tags": [
+    "policy",
+    "alignment",
+    "biodiversity",
+    "phenology"
+  ],
+  "group": "EBV Specific",
+  "highlighted": true
 }
