@@ -1,5 +1,5 @@
 Validation report for syke.ebv.phenology.ebv-feature-view - EBV Feature View
-Generated 2026-04-30T10:28:30.551364+00:00
+Generated 2026-04-30T10:31:13.402253+00:00
 === Files ===
 Using examples/finland-vap-grid-sample-2001.json from examples
 JSON-LD context is present - uplifting
@@ -10,7 +10,7 @@ Output Turtle example_2_1.ttl created
 === JSON Schema ===
 
 ** Validation error **
-ValidationError: 106.26 is not of type 'integer'
+ValidationError: 116.57 is not of type 'integer'
 
 Failed validating 'type' in schema['properties']['vap_doy']:
     {'description': 'Integer day of year marking the start of the '
@@ -21,7 +21,7 @@ Failed validating 'type' in schema['properties']['vap_doy']:
      'x-jsonld-type': 'http://www.w3.org/2001/XMLSchema#integer'}
 
 On instance['vap_doy']:
-    106.26
+    116.57
 === End JSON Schema ===
 
 === SHACL ===
@@ -31,9 +31,9 @@ Validation result for https://opengeospatial.github.io/bblocks/registereditems/g
   
 Focus nodes for https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl:
  - Shape geojson:GeometryShape/sh:or/rdf:first: *none*
- - Shape geojson:LinkShape: *none*
- - Shape geojson:GeometryShape: *none*
  - Shape geojson:FeatureShape: *none*
+ - Shape geojson:GeometryShape: *none*
+ - Shape geojson:LinkShape: *none*
  - Shape geojson:GeometryShape/sh:or/rdf:rest/rdf:first: *none*
 
 === End SHACL ===

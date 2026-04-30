@@ -2,7 +2,7 @@
   "title": "Validation report for syke.ebv.phenology.ebv-feature-view - EBV Feature View",
   "bblockName": "EBV Feature View",
   "bblockId": "syke.ebv.phenology.ebv-feature-view",
-  "generated": "2026-04-30T10:28:30.551418+00:00",
+  "generated": "2026-04-30T10:31:13.402346+00:00",
   "result": false,
   "items": [
     {
@@ -97,7 +97,7 @@
               "op": "ttl-create",
               "empty": false,
               "filename": "example_2_1.ttl",
-              "size": 13,
+              "size": 14,
               "isError": false,
               "message": "Output Turtle example_2_1.ttl created"
             }
@@ -111,9 +111,9 @@
               "op": "validation",
               "result": false,
               "exception": "ValidationError",
-              "errorMessage": "106.26 is not of type 'integer'",
+              "errorMessage": "116.57 is not of type 'integer'",
               "isError": true,
-              "message": "ValidationError: 106.26 is not of type 'integer'\n\nFailed validating 'type' in schema['properties']['vap_doy']:\n    {'description': 'Integer day of year marking the start of the '\n                    'Vegetation Active Period.',\n     'title': 'Start of VAP (Day of Year)',\n     'type': 'integer',\n     'x-jsonld-id': 'https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#vap_doy',\n     'x-jsonld-type': 'http://www.w3.org/2001/XMLSchema#integer'}\n\nOn instance['vap_doy']:\n    106.26"
+              "message": "ValidationError: 116.57 is not of type 'integer'\n\nFailed validating 'type' in schema['properties']['vap_doy']:\n    {'description': 'Integer day of year marking the start of the '\n                    'Vegetation Active Period.',\n     'title': 'Start of VAP (Day of Year)',\n     'type': 'integer',\n     'x-jsonld-id': 'https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#vap_doy',\n     'x-jsonld-type': 'http://www.w3.org/2001/XMLSchema#integer'}\n\nOn instance['vap_doy']:\n    116.57"
             }
           ]
         },
@@ -134,13 +134,13 @@
                 "geojson:GeometryShape/sh:or/rdf:first": {
                   "nodes": []
                 },
-                "geojson:LinkShape": {
+                "geojson:FeatureShape": {
                   "nodes": []
                 },
                 "geojson:GeometryShape": {
                   "nodes": []
                 },
-                "geojson:FeatureShape": {
+                "geojson:LinkShape": {
                   "nodes": []
                 },
                 "geojson:GeometryShape/sh:or/rdf:rest/rdf:first": {
@@ -148,7 +148,7 @@
                 }
               },
               "isError": false,
-              "message": "Focus nodes for https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl:\n - Shape geojson:GeometryShape/sh:or/rdf:first: *none*\n - Shape geojson:LinkShape: *none*\n - Shape geojson:GeometryShape: *none*\n - Shape geojson:FeatureShape: *none*\n - Shape geojson:GeometryShape/sh:or/rdf:rest/rdf:first: *none*\n"
+              "message": "Focus nodes for https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl:\n - Shape geojson:GeometryShape/sh:or/rdf:first: *none*\n - Shape geojson:FeatureShape: *none*\n - Shape geojson:GeometryShape: *none*\n - Shape geojson:LinkShape: *none*\n - Shape geojson:GeometryShape/sh:or/rdf:rest/rdf:first: *none*\n"
             }
           ]
         }

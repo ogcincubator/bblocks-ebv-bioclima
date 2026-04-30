@@ -7,11 +7,12 @@
     ebv:entity_type <https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/ConiferousForest> ;
     ebv:grid_height 202 ;
     ebv:grid_width 318 ;
-    ebv:max_doy 125 ;
-    ebv:mean_doy 106.26 ;
-    ebv:min_doy 71 ;
+    ebv:max_doy 126 ;
+    ebv:mean_doy 116.57 ;
+    ebv:min_doy 105 ;
     ebv:sensor "MODIS Terra" ;
-    ebv:valid_percent 0.1915 ;
-    ebv:vap_doy 106.26 ;
+    ebv:stddev 3.62 ;
+    ebv:valid_percent 96.84 ;
+    ebv:vap_doy 116.57 ;
     ebv:year 2001 .
 
