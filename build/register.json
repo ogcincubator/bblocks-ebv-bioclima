@@ -1,0 +1,43 @@
+{
+  "name": "EBV Phenology Finland Building Blocks",
+  "abstract": "Complete OGC Building Blocks for EBV phenology raster data. Models the full \nCoverageJSON UML (9 classes) plus 7 EBV-specific blocks = 17 total.\nMulti-language ontology (EN, ES, ZH, RO). Dataset: Finland VAP 2001-2018.\n",
+  "modified": "2026-04-30T08:09:00.262849",
+  "tooling": {
+    "bblocks-postprocess": {
+      "commitId": "\"e7a962626cb1b8416eac2178e4b7326d31314fcd",
+      "shortCommitId": "\"e7a962",
+      "date": "2026-04-28T10:25:15+00:00\""
+    }
+  },
+  "gitRepository": "https://github.com/MayteToscano/bblock-ebv-bioclima",
+  "gitHubRepository": "https://github.com/MayteToscano/bblock-ebv-bioclima/blob/main/",
+  "baseURL": "https://maytetoscano.github.io/bblock-ebv-bioclima/",
+  "viewerURL": "https://maytetoscano.github.io/bblock-ebv-bioclima/",
+  "validationReport": "https://maytetoscano.github.io/bblock-ebv-bioclima/build/tests/report.html",
+  "validationReportJson": "https://maytetoscano.github.io/bblock-ebv-bioclima/build/tests/report.json",
+  "imports": [
+    "https://opengeospatial.github.io/bblocks/register.json"
+  ],
+  "bblocks": [],
+  "remoteCacheDir": "https://maytetoscano.github.io/bblock-ebv-bioclima/build/annotated/_cache",
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://maytetoscano.github.io/bblock-ebv-bioclima/build/register.json",
+      "type": "application/json",
+      "title": "This Building Blocks Register in JSON format"
+    },
+    {
+      "rel": "self",
+      "href": "https://maytetoscano.github.io/bblock-ebv-bioclima/build/bblocks.ttl",
+      "type": "text/turtle",
+      "title": "This Building Blocks Register in RDF Turtle format"
+    },
+    {
+      "rel": "self",
+      "href": "https://maytetoscano.github.io/bblock-ebv-bioclima/build/bblocks.jsonld",
+      "type": "application/ld+json",
+      "title": "This Building Blocks Register in JSON-LD format"
+    }
+  ]
+}
