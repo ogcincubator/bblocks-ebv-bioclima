@@ -1,7 +1,7 @@
 {
   "name": "EBV Phenology Finland Building Blocks",
   "abstract": "Complete OGC Building Blocks for EBV phenology raster data. Models the full \nCoverageJSON UML (9 classes) plus 7 EBV-specific blocks = 17 total.\nMulti-language ontology (EN, ES, ZH, RO). Dataset: Finland VAP 2001-2018.\n",
-  "modified": "2026-04-30T09:33:13.513030",
+  "modified": "2026-04-30T09:37:40.636588",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"e7a962626cb1b8416eac2178e4b7326d31314fcd",
@@ -29,7 +29,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2024-01-01",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a77.2",
@@ -78,7 +78,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2024-01-01",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a77.4",
@@ -127,7 +127,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2024-01-01",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a79",
@@ -177,7 +177,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2024-01-01",
       "sources": [
         {
           "title": "W3C OWL 2",
@@ -227,7 +227,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2024-01-01",
       "sources": [
         {
           "title": "GEO BON EBV Framework",
@@ -276,7 +276,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2024-01-01",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a77",
@@ -284,8 +284,8 @@
         }
       ],
       "dependsOn": [
-        "syke.ebv.phenology.covjson-axis",
-        "syke.ebv.phenology.covjson-reference-system"
+        "syke.ebv.phenology.covjson-reference-system",
+        "syke.ebv.phenology.covjson-axis"
       ],
       "tags": [
         "covjson",
@@ -329,7 +329,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2024-01-01",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a79.2",
@@ -381,7 +381,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2024-01-01",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a78",
@@ -436,7 +436,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2024-01-01",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a79",
@@ -444,8 +444,8 @@
         }
       ],
       "dependsOn": [
-        "syke.ebv.phenology.covjson-tiled-ndarray",
-        "syke.ebv.phenology.covjson-ndarray"
+        "syke.ebv.phenology.covjson-ndarray",
+        "syke.ebv.phenology.covjson-tiled-ndarray"
       ],
       "tags": [
         "covjson",
@@ -489,7 +489,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2024-01-01",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a78.3",
@@ -541,7 +541,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2024-01-01",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a76",
@@ -549,10 +549,10 @@
         }
       ],
       "dependsOn": [
-        "syke.ebv.phenology.covjson-domain",
+        "syke.ebv.phenology.covjson-parameter",
         "syke.ebv.phenology.covjson-parameter-group",
-        "syke.ebv.phenology.covjson-range",
-        "syke.ebv.phenology.covjson-parameter"
+        "syke.ebv.phenology.covjson-domain",
+        "syke.ebv.phenology.covjson-range"
       ],
       "tags": [
         "covjson",
@@ -599,7 +599,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2024-01-01",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a76.3",
@@ -652,7 +652,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2024-01-01",
       "sources": [
         {
           "title": "W3C PROV-O",
@@ -703,7 +703,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2024-01-01",
       "sources": [],
       "dependsOn": [
         "syke.ebv.phenology.covjson-coverage"
@@ -749,7 +749,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2024-01-01",
       "sources": [],
       "dependsOn": [
         "syke.ebv.phenology.covjson-coverage"
@@ -797,7 +797,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2024-01-01",
       "sources": [
         {
           "title": "OGC API - Features, Part 1, 7.16.2: Feature Response",
@@ -805,11 +805,11 @@
         }
       ],
       "dependsOn": [
-        "syke.ebv.phenology.ebv-profile",
         "ogc.geo.features.feature",
-        "syke.ebv.phenology.covjson-coverage",
         "syke.ebv.phenology.phenology-indicators",
-        "syke.ebv.phenology.data-provenance"
+        "syke.ebv.phenology.covjson-coverage",
+        "syke.ebv.phenology.data-provenance",
+        "syke.ebv.phenology.ebv-profile"
       ],
       "tags": [
         "feature",
@@ -860,7 +860,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2024-01-01",
       "sources": [],
       "dependsOn": [
         "syke.ebv.phenology.phenology-indicators"
@@ -906,7 +906,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2024-01-01",
       "sources": [
         {
           "title": "Kunming-Montreal GBF",
