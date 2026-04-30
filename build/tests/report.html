@@ -64,7 +64,7 @@
     <body>
         <div class="container">
             <h1 class="title">Building blocks validation report</h1>
-            <small class="datetime">Generated at 2026-04-30T09:18:12.499720+00:00</small>
+            <small class="datetime">Generated at 2026-04-30T09:33:15.541521+00:00</small>
                 <p class="summary fw-semibold text-danger">
                     Number of passing building blocks: 17 / 18 (94.44%)
                 </p>
@@ -560,73 +560,130 @@
 Failed validating &#x27;required&#x27; in schema:
     {&#x27;$schema&#x27;: &#x27;https://json-schema.org/draft/2020-12/schema&#x27;,
      &#x27;description&#x27;: &#x27;EBV phenology properties for map feature view&#x27;,
-     &#x27;properties&#x27;: {&#x27;algorithm&#x27;: {&#x27;title&#x27;: &#x27;Derivation Algorithm&#x27;,
+     &#x27;properties&#x27;: {&#x27;algorithm&#x27;: {&#x27;description&#x27;: &#x27;Algorithm or processing &#x27;
+                                                 &#x27;method used to derive &#x27;
+                                                 &#x27;the phenology metric.&#x27;,
+                                  &#x27;title&#x27;: &#x27;Derivation Algorithm&#x27;,
                                   &#x27;type&#x27;: &#x27;string&#x27;,
                                   &#x27;x-jsonld-id&#x27;: &#x27;https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#algorithm&#x27;},
-                    &#x27;anomaly&#x27;: {&#x27;title&#x27;: &#x27;Annual Anomaly Status&#x27;,
+                    &#x27;anomaly&#x27;: {&#x27;description&#x27;: &#x27;Annual anomaly category &#x27;
+                                               &#x27;relative to a baseline, &#x27;
+                                               &#x27;for example early, normal &#x27;
+                                               &#x27;or late.&#x27;,
+                                &#x27;title&#x27;: &#x27;Annual Anomaly Status&#x27;,
                                 &#x27;type&#x27;: &#x27;string&#x27;,
                                 &#x27;x-jsonld-id&#x27;: &#x27;https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#anomaly&#x27;},
-                    &#x27;crs&#x27;: {&#x27;title&#x27;: &#x27;Coordinate Reference System&#x27;,
+                    &#x27;crs&#x27;: {&#x27;description&#x27;: &#x27;Coordinate reference system &#x27;
+                                           &#x27;used by the spatial &#x27;
+                                           &#x27;representation of the feature &#x27;
+                                           &#x27;or coverage-derived summary.&#x27;,
+                            &#x27;title&#x27;: &#x27;Coordinate Reference System&#x27;,
                             &#x27;type&#x27;: &#x27;string&#x27;,
                             &#x27;x-jsonld-id&#x27;: &#x27;https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#crs&#x27;},
                     &#x27;entity_type&#x27;: {&#x27;description&#x27;: &#x27;The ecosystem entity &#x27;
                                                    &#x27;type for which the &#x27;
                                                    &#x27;phenology metric is &#x27;
-                                                   &#x27;derived.&#x27;,
+                                                   &#x27;derived. Values may &#x27;
+                                                   &#x27;identify forest &#x27;
+                                                   &#x27;entities such as &#x27;
+                                                   &#x27;coniferous or &#x27;
+                                                   &#x27;deciduous forest.&#x27;,
                                     &#x27;title&#x27;: &#x27;Forest Entity Type&#x27;,
                                     &#x27;type&#x27;: &#x27;string&#x27;,
                                     &#x27;x-jsonld-base&#x27;: &#x27;https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#&#x27;,
                                     &#x27;x-jsonld-id&#x27;: &#x27;https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#entity_type&#x27;,
                                     &#x27;x-jsonld-type&#x27;: &#x27;@id&#x27;},
-                    &#x27;grid_height&#x27;: {&#x27;title&#x27;: &#x27;Grid Height (rows)&#x27;,
+                    &#x27;grid_height&#x27;: {&#x27;description&#x27;: &#x27;Number of rows in the &#x27;
+                                                   &#x27;grid used for the &#x27;
+                                                   &#x27;coverage-derived &#x27;
+                                                   &#x27;phenology data.&#x27;,
+                                    &#x27;title&#x27;: &#x27;Grid Height (rows)&#x27;,
                                     &#x27;type&#x27;: &#x27;integer&#x27;,
                                     &#x27;x-jsonld-id&#x27;: &#x27;https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#grid_height&#x27;,
                                     &#x27;x-jsonld-type&#x27;: &#x27;http://www.w3.org/2001/XMLSchema#integer&#x27;},
-                    &#x27;grid_width&#x27;: {&#x27;title&#x27;: &#x27;Grid Width (columns)&#x27;,
+                    &#x27;grid_width&#x27;: {&#x27;description&#x27;: &#x27;Number of columns in &#x27;
+                                                  &#x27;the grid used for the &#x27;
+                                                  &#x27;coverage-derived &#x27;
+                                                  &#x27;phenology data.&#x27;,
+                                   &#x27;title&#x27;: &#x27;Grid Width (columns)&#x27;,
                                    &#x27;type&#x27;: &#x27;integer&#x27;,
                                    &#x27;x-jsonld-id&#x27;: &#x27;https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#grid_width&#x27;,
                                    &#x27;x-jsonld-type&#x27;: &#x27;http://www.w3.org/2001/XMLSchema#integer&#x27;},
-                    &#x27;max_doy&#x27;: {&#x27;title&#x27;: &#x27;Maximum DOY&#x27;,
+                    &#x27;max_doy&#x27;: {&#x27;description&#x27;: &#x27;Maximum day-of-year value &#x27;
+                                               &#x27;observed across the valid &#x27;
+                                               &#x27;spatial cells for the &#x27;
+                                               &#x27;selected feature.&#x27;,
+                                &#x27;title&#x27;: &#x27;Maximum DOY&#x27;,
                                 &#x27;type&#x27;: &#x27;integer&#x27;,
                                 &#x27;x-jsonld-id&#x27;: &#x27;https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#max_doy&#x27;,
                                 &#x27;x-jsonld-type&#x27;: &#x27;http://www.w3.org/2001/XMLSchema#integer&#x27;},
-                    &#x27;mean_doy&#x27;: {&#x27;title&#x27;: &#x27;Mean DOY (spatial average)&#x27;,
+                    &#x27;mean_doy&#x27;: {&#x27;description&#x27;: &#x27;Spatial mean day-of-year &#x27;
+                                                &#x27;value calculated across &#x27;
+                                                &#x27;valid grid cells or &#x27;
+                                                &#x27;pixels for the selected &#x27;
+                                                &#x27;feature.&#x27;,
+                                 &#x27;title&#x27;: &#x27;Mean DOY (spatial average)&#x27;,
                                  &#x27;type&#x27;: &#x27;number&#x27;,
                                  &#x27;x-jsonld-id&#x27;: &#x27;https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#mean_doy&#x27;,
                                  &#x27;x-jsonld-type&#x27;: &#x27;http://www.w3.org/2001/XMLSchema#decimal&#x27;},
-                    &#x27;min_doy&#x27;: {&#x27;title&#x27;: &#x27;Minimum DOY&#x27;,
+                    &#x27;min_doy&#x27;: {&#x27;description&#x27;: &#x27;Minimum day-of-year value &#x27;
+                                               &#x27;observed across the valid &#x27;
+                                               &#x27;spatial cells for the &#x27;
+                                               &#x27;selected feature.&#x27;,
+                                &#x27;title&#x27;: &#x27;Minimum DOY&#x27;,
                                 &#x27;type&#x27;: &#x27;integer&#x27;,
                                 &#x27;x-jsonld-id&#x27;: &#x27;https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#min_doy&#x27;,
                                 &#x27;x-jsonld-type&#x27;: &#x27;http://www.w3.org/2001/XMLSchema#integer&#x27;},
-                    &#x27;sensor&#x27;: {&#x27;title&#x27;: &#x27;Source Sensor Platform&#x27;,
+                    &#x27;sensor&#x27;: {&#x27;description&#x27;: &#x27;Sensor or observation &#x27;
+                                              &#x27;platform used as the source &#x27;
+                                              &#x27;for the phenology &#x27;
+                                              &#x27;derivation.&#x27;,
+                               &#x27;title&#x27;: &#x27;Source Sensor Platform&#x27;,
                                &#x27;type&#x27;: &#x27;string&#x27;,
                                &#x27;x-jsonld-id&#x27;: &#x27;https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#sensor&#x27;},
-                    &#x27;stddev&#x27;: {&#x27;title&#x27;: &#x27;Standard Deviation of DOY&#x27;,
+                    &#x27;stddev&#x27;: {&#x27;description&#x27;: &#x27;Standard deviation of &#x27;
+                                              &#x27;day-of-year values across &#x27;
+                                              &#x27;valid spatial cells or &#x27;
+                                              &#x27;pixels.&#x27;,
+                               &#x27;title&#x27;: &#x27;Standard Deviation of DOY&#x27;,
                                &#x27;type&#x27;: &#x27;number&#x27;,
                                &#x27;x-jsonld-id&#x27;: &#x27;https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#stddev&#x27;,
                                &#x27;x-jsonld-type&#x27;: &#x27;http://www.w3.org/2001/XMLSchema#decimal&#x27;},
-                    &#x27;trend_slope&#x27;: {&#x27;title&#x27;: &#x27;Trend Slope (days/year)&#x27;,
+                    &#x27;trend_slope&#x27;: {&#x27;description&#x27;: &#x27;Rate of change of the &#x27;
+                                                   &#x27;VAP start date over &#x27;
+                                                   &#x27;time, expressed in &#x27;
+                                                   &#x27;days per year.&#x27;,
+                                    &#x27;title&#x27;: &#x27;Trend Slope (days/year)&#x27;,
                                     &#x27;type&#x27;: &#x27;number&#x27;,
                                     &#x27;x-jsonld-id&#x27;: &#x27;https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#trend_slope&#x27;,
                                     &#x27;x-jsonld-type&#x27;: &#x27;http://www.w3.org/2001/XMLSchema#decimal&#x27;},
-                    &#x27;valid_percent&#x27;: {&#x27;title&#x27;: &#x27;Valid Pixel Percentage&#x27;,
+                    &#x27;valid_percent&#x27;: {&#x27;description&#x27;: &#x27;Percentage of valid &#x27;
+                                                     &#x27;spatial cells or &#x27;
+                                                     &#x27;pixels used to &#x27;
+                                                     &#x27;compute the &#x27;
+                                                     &#x27;phenology summary &#x27;
+                                                     &#x27;metric.&#x27;,
+                                      &#x27;title&#x27;: &#x27;Valid Pixel Percentage&#x27;,
                                       &#x27;type&#x27;: &#x27;number&#x27;,
                                       &#x27;x-jsonld-id&#x27;: &#x27;https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#valid_percent&#x27;,
                                       &#x27;x-jsonld-type&#x27;: &#x27;http://www.w3.org/2001/XMLSchema#decimal&#x27;},
-                    &#x27;vap_doy&#x27;: {&#x27;title&#x27;: &#x27;Start of VAP (Day of Year)&#x27;,
+                    &#x27;vap_doy&#x27;: {&#x27;description&#x27;: &#x27;Integer day of year &#x27;
+                                               &#x27;marking the start of the &#x27;
+                                               &#x27;Vegetation Active Period.&#x27;,
+                                &#x27;title&#x27;: &#x27;Start of VAP (Day of Year)&#x27;,
                                 &#x27;type&#x27;: &#x27;integer&#x27;,
                                 &#x27;x-jsonld-id&#x27;: &#x27;https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#vap_doy&#x27;,
                                 &#x27;x-jsonld-type&#x27;: &#x27;http://www.w3.org/2001/XMLSchema#integer&#x27;},
-                    &#x27;year&#x27;: {&#x27;title&#x27;: &#x27;Observation Year&#x27;,
+                    &#x27;year&#x27;: {&#x27;description&#x27;: &#x27;Calendar year associated with &#x27;
+                                            &#x27;the phenology observation or &#x27;
+                                            &#x27;derived annual EBV metric.&#x27;,
+                             &#x27;title&#x27;: &#x27;Observation Year&#x27;,
                              &#x27;type&#x27;: &#x27;integer&#x27;,
                              &#x27;x-jsonld-id&#x27;: &#x27;https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#year&#x27;,
                              &#x27;x-jsonld-type&#x27;: &#x27;http://www.w3.org/2001/XMLSchema#integer&#x27;}},
      &#x27;required&#x27;: [&#x27;entity_type&#x27;, &#x27;year&#x27;, &#x27;vap_doy&#x27;],
      &#x27;type&#x27;: &#x27;object&#x27;,
      &#x27;x-jsonld-prefixes&#x27;: {&#x27;ebv&#x27;: &#x27;https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#&#x27;,
-                           &#x27;prov&#x27;: &#x27;http://www.w3.org/ns/prov#&#x27;,
-                           &#x27;rdfs&#x27;: &#x27;http://www.w3.org/2000/01/rdf-schema#&#x27;,
-                           &#x27;skos&#x27;: &#x27;http://www.w3.org/2004/02/skos/core#&#x27;,
                            &#x27;xsd&#x27;: &#x27;http://www.w3.org/2001/XMLSchema#&#x27;}}
 
 On instance:
