@@ -252,10 +252,10 @@ ebv:StartOfVAP skos:prefLabel "Start of Vegetation Active Period"@en,
             covjson:axis [ covjson:num 320 ;
                     covjson:start 1.41e+01 ;
                     covjson:stop 3.523e+01 ],
+                [ ],
                 [ covjson:num 200 ;
                     covjson:start 5.775e+01 ;
-                    covjson:stop 7.117e+01 ],
-                [ ] ;
+                    covjson:stop 7.117e+01 ] ;
             covjson:domainType covjsondt:Grid ;
             covjson:referencing [ covjson:referenceSystem [ a inspiregloss:TemporalReferenceSystem ;
                             covjson:calendar <http://www.opengis.net/def/uom/ISO-8601/0/Gregorian> ] ],

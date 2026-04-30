@@ -1,7 +1,7 @@
 {
   "name": "EBV Phenology Finland Building Blocks",
   "abstract": "Complete OGC Building Blocks for EBV phenology raster data. Models the full \nCoverageJSON UML (9 classes) plus 7 EBV-specific blocks = 17 total.\nMulti-language ontology (EN, ES, ZH, RO). Dataset: Finland VAP 2001-2018.\n",
-  "modified": "2026-04-30T08:10:29.492616",
+  "modified": "2026-04-30T08:22:05.681523",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"e7a962626cb1b8416eac2178e4b7326d31314fcd",
@@ -444,8 +444,8 @@
         }
       ],
       "dependsOn": [
-        "syke.ebv.phenology.covjson-ndarray",
-        "syke.ebv.phenology.covjson-tiled-ndarray"
+        "syke.ebv.phenology.covjson-tiled-ndarray",
+        "syke.ebv.phenology.covjson-ndarray"
       ],
       "tags": [
         "covjson",
@@ -549,10 +549,10 @@
         }
       ],
       "dependsOn": [
-        "syke.ebv.phenology.covjson-parameter",
         "syke.ebv.phenology.covjson-range",
-        "syke.ebv.phenology.covjson-domain",
-        "syke.ebv.phenology.covjson-parameter-group"
+        "syke.ebv.phenology.covjson-parameter-group",
+        "syke.ebv.phenology.covjson-parameter",
+        "syke.ebv.phenology.covjson-domain"
       ],
       "tags": [
         "covjson",
@@ -805,11 +805,11 @@
         }
       ],
       "dependsOn": [
-        "syke.ebv.phenology.covjson-coverage",
-        "ogc.geo.features.feature",
-        "syke.ebv.phenology.phenology-indicators",
+        "syke.ebv.phenology.ebv-profile",
         "syke.ebv.phenology.data-provenance",
-        "syke.ebv.phenology.ebv-profile"
+        "ogc.geo.features.feature",
+        "syke.ebv.phenology.covjson-coverage",
+        "syke.ebv.phenology.phenology-indicators"
       ],
       "tags": [
         "feature",
