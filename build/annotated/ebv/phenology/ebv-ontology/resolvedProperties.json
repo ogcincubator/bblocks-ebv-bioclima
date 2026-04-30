@@ -1,1 +1,0 @@
-{"defs":{},"properties":[{"path":["concept_uri"],"schema_type":"string","sources":["bblocks://syke.ebv.phenology.ebv-ontology"]},{"path":["labels"],"schema_type":"object","sources":["bblocks://syke.ebv.phenology.ebv-ontology"]}]}
