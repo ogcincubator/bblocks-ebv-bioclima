@@ -1,5 +1,5 @@
 Validation report for syke.ebv.phenology.covjson-coverage - CovJSON Coverage
-Generated 2026-04-30T10:01:13.891330+00:00
+Generated 2026-04-30T10:04:08.240779+00:00
 === Files ===
 Using examples/finland-vap-coniferous.json from examples
 JSON-LD context is present - uplifting

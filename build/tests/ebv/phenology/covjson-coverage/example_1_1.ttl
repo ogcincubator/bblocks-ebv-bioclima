@@ -18,17 +18,17 @@ ebv:StartOfVAP skos:prefLabel "Start of Vegetation Active Period"@en,
 
 [] a covjson:Coverage ;
     covjson:domain [ a covjson:Domain ;
-            covjson:axis [ covjson:num 200 ;
+            covjson:axis [ ],
+                [ covjson:num 200 ;
                     covjson:start 5.775e+01 ;
                     covjson:stop 7.117e+01 ],
                 [ covjson:num 320 ;
                     covjson:start 1.41e+01 ;
-                    covjson:stop 3.523e+01 ],
-                [ ] ;
+                    covjson:stop 3.523e+01 ] ;
             covjson:domainType covjsondt:Grid ;
-            covjson:referencing [ covjson:referenceSystem <http://www.opengis.net/def/crs/OGC/1.3/CRS84> ],
-                [ covjson:referenceSystem [ a inspiregloss:TemporalReferenceSystem ;
-                            covjson:calendar <http://www.opengis.net/def/uom/ISO-8601/0/Gregorian> ] ] ] ;
+            covjson:referencing [ covjson:referenceSystem [ a inspiregloss:TemporalReferenceSystem ;
+                            covjson:calendar <http://www.opengis.net/def/uom/ISO-8601/0/Gregorian> ] ],
+                [ covjson:referenceSystem <http://www.opengis.net/def/crs/OGC/1.3/CRS84> ] ] ;
     covjson:parameter [ a covjson:Parameter ;
             dct:description "Start of Vegetation Active Period for coniferous forests derived from MODIS Fractional Snow Cover"@en,
                 "Inicio del Periodo Activo de Vegetación para bosques de coníferas derivado de cobertura fraccional de nieve MODIS"@es,
