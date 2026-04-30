@@ -10,7 +10,8 @@
   "dateOfLastChange": "2026-04-30",
   "sources": [],
   "dependsOn": [
-    "syke.ebv.phenology.covjson-coverage"
+    "syke.ebv.phenology.covjson-coverage",
+    "syke.ebv.phenology.data-provenance"
   ],
   "tags": [
     "policy",
@@ -19,5 +20,6 @@
     "phenology"
   ],
   "group": "EBV Specific",
-  "highlighted": true
+  "highlighted": true,
+  "ldContext": "context.jsonld"
 }
