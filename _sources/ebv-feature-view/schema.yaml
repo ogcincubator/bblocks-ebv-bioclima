@@ -1,83 +1,83 @@
 $schema: https://json-schema.org/draft/2020-12/schema
 description: EBV phenology properties for map feature view
 type: object
-properties:
 
+properties:
   entity_type:
     type: string
     title: Forest Entity Type
     description: The ecosystem entity type for which the phenology metric is derived.
-    x-jsonld-id: https://w3id.org/ogc/hosted/ebv-phenology/entity_type
+    x-jsonld-id: https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#entity_type
 
   year:
     type: integer
     title: Observation Year
-    x-jsonld-id: https://w3id.org/ogc/hosted/ebv-phenology/year
+    x-jsonld-id: https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#year
 
   vap_doy:
     type: integer
     title: Start of VAP (Day of Year)
-    x-jsonld-id: https://w3id.org/ogc/hosted/ebv-phenology/vap_doy
+    x-jsonld-id: https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#vap_doy
 
   mean_doy:
     type: number
     title: Mean DOY (spatial average)
-    x-jsonld-id: https://w3id.org/ogc/hosted/ebv-phenology/mean_doy
+    x-jsonld-id: https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#mean_doy
 
   min_doy:
     type: integer
     title: Minimum DOY
-    x-jsonld-id: https://w3id.org/ogc/hosted/ebv-phenology/min_doy
+    x-jsonld-id: https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#min_doy
 
   max_doy:
     type: integer
     title: Maximum DOY
-    x-jsonld-id: https://w3id.org/ogc/hosted/ebv-phenology/max_doy
+    x-jsonld-id: https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#max_doy
 
   stddev:
     type: number
     title: Standard Deviation of DOY
-    x-jsonld-id: https://w3id.org/ogc/hosted/ebv-phenology/stddev
+    x-jsonld-id: https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#stddev
 
   valid_percent:
     type: number
     title: Valid Pixel Percentage
-    x-jsonld-id: https://w3id.org/ogc/hosted/ebv-phenology/valid_percent
+    x-jsonld-id: https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#valid_percent
 
   crs:
     type: string
     title: Coordinate Reference System
-    x-jsonld-id: https://covjson.org/def/core#referenceSystem
+    x-jsonld-id: https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#crs
 
   grid_width:
     type: integer
     title: Grid Width (columns)
-    x-jsonld-id: https://w3id.org/ogc/hosted/ebv-phenology/grid_width
+    x-jsonld-id: https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#grid_width
 
   grid_height:
     type: integer
     title: Grid Height (rows)
-    x-jsonld-id: https://w3id.org/ogc/hosted/ebv-phenology/grid_height
+    x-jsonld-id: https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#grid_height
 
   sensor:
     type: string
     title: Source Sensor Platform
-    x-jsonld-id: http://www.w3.org/ns/prov#wasGeneratedBy
+    x-jsonld-id: https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#sensor
 
   algorithm:
     type: string
     title: Derivation Algorithm
-    x-jsonld-id: http://www.w3.org/ns/prov#used
+    x-jsonld-id: https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#algorithm
 
   trend_slope:
     type: number
     title: Trend Slope (days/year)
-    x-jsonld-id: https://w3id.org/ogc/hosted/ebv-phenology/trend_slope
+    x-jsonld-id: https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#trend_slope
 
   anomaly:
     type: string
     title: Annual Anomaly Status
-    x-jsonld-id: https://w3id.org/ogc/hosted/ebv-phenology/anomaly
+    x-jsonld-id: https://maytetoscano.github.io/bblock-ebv-bioclima/vocab/#anomaly
 
 required:
   - entity_type
