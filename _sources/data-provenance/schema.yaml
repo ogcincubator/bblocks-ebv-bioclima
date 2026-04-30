@@ -1,8 +1,0 @@
-$schema: https://json-schema.org/draft/2020-12/schema
-description: W3C PROV data provenance
-type: object
-properties:
-  sensor: {type: string}
-  platform: {type: string}
-  algorithm: {type: object, properties: {name: {type: string}, version: {type: string}}}
-  agent: {type: object, properties: {name: {type: string}, institution: {type: string}}}

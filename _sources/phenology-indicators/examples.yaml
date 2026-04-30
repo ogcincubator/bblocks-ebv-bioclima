@@ -1,6 +1,0 @@
-examples:
-  - title: Coniferous VAP linear trend
-    content: Advancing phenology -0.45 d/yr (p=0.05)
-    snippets:
-      - language: json
-        ref: examples/coniferous-trend.json
