@@ -2,8 +2,9 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://www.w3.org/ns/oa#> .
-@prefix ns2: <http://www.iana.org/assignments/> .
+@prefix ns1: <http://www.iana.org/assignments/> .
+@prefix ns2: <http://www.w3.org/ns/oa#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prof: <http://www.w3.org/ns/dx/prof/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -14,40 +15,45 @@
 <https://maytetoscano.github.io/bblock-ebv-bioclima/> a skos:ConceptScheme,
         dcat:Catalog,
         bblocks:BBlocksRegister ;
-    rdfs:label "Building Blocks - workspace" ;
-    dct:modified "2026-04-30T08:28:26.616711"^^xsd:dateTime ;
-    skos:prefLabel "Building Blocks - workspace" ;
-    prof:hasResource [ rdfs:label "This Building Blocks Register in JSON format" ;
+    rdfs:label "Building Blocks - EBV Phenology Finland Building Blocks" ;
+    dct:abstract """Complete OGC Building Blocks for EBV phenology raster data. Models the full 
+CoverageJSON UML (9 classes) plus 7 EBV-specific blocks = 17 total.
+Multi-language ontology (EN, ES, ZH, RO). Dataset: Finland VAP 2001-2018.
+"""^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
+    dct:modified "2026-04-30T08:38:13.372196"^^xsd:dateTime ;
+    owl:imports <https://opengeospatial.github.io/bblocks/register.json> ;
+    skos:prefLabel "Building Blocks - EBV Phenology Finland Building Blocks" ;
+    prof:hasResource [ rdfs:label "This Building Blocks Register in JSON-LD format" ;
+            dct:type "application/ld+json" ;
+            ns1:relation <http://www.iana.org/assignments/relation/self> ;
+            ns2:hasTarget <https://maytetoscano.github.io/bblock-ebv-bioclima/build/bblocks.jsonld> ],
+        [ rdfs:label "This Building Blocks Register in JSON format" ;
             dct:type "application/json" ;
-            ns2:relation <http://www.iana.org/assignments/relation/self> ;
-            ns1:hasTarget <https://maytetoscano.github.io/bblock-ebv-bioclima/build/register.json> ],
+            ns1:relation <http://www.iana.org/assignments/relation/self> ;
+            ns2:hasTarget <https://maytetoscano.github.io/bblock-ebv-bioclima/build/register.json> ],
         [ rdfs:label "This Building Blocks Register in RDF Turtle format" ;
             dct:type "text/turtle" ;
-            ns2:relation <http://www.iana.org/assignments/relation/self> ;
-            ns1:hasTarget <https://maytetoscano.github.io/bblock-ebv-bioclima/build/bblocks.ttl> ],
-        [ rdfs:label "This Building Blocks Register in JSON-LD format" ;
-            dct:type "application/ld+json" ;
-            ns2:relation <http://www.iana.org/assignments/relation/self> ;
-            ns1:hasTarget <https://maytetoscano.github.io/bblock-ebv-bioclima/build/bblocks.jsonld> ] ;
+            ns1:relation <http://www.iana.org/assignments/relation/self> ;
+            ns2:hasTarget <https://maytetoscano.github.io/bblock-ebv-bioclima/build/bblocks.ttl> ] ;
     foaf:homepage <https://maytetoscano.github.io/bblock-ebv-bioclima/> ;
     bblocks:hasValidationReport <https://maytetoscano.github.io/bblock-ebv-bioclima/build/tests/report.html> .
 
 <https://maytetoscano.github.io/bblock-ebv-bioclima/build/bblocks.ttl> a prov:Entity ;
     dct:format "text/turtle" ;
-    prov:wasAttributedTo _:N96179e7c790e42ac9bdd119ea820e84c ;
+    prov:wasAttributedTo _:Nee1abac207df4271acd9836d8af4ccb4 ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            prov:endedAtTime "2026-04-30T08:28:26.729592"^^xsd:dateTime ;
-            prov:startedAtTime "2026-04-30T08:28:26.644223"^^xsd:dateTime ;
+            prov:endedAtTime "2026-04-30T08:38:13.691927"^^xsd:dateTime ;
+            prov:startedAtTime "2026-04-30T08:38:13.520557"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
                     dct:format "application/yaml" ;
                     rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
                 [ a prov:Entity ;
                     dct:format "application/json" ;
-                    dct:hasVersion "git:cbcffe07f42a600c9b8e4c2062501e565416e4f7" ;
+                    dct:hasVersion "git:0bed2df7e84549e20bc58c5d49d6e611a3bef495" ;
                     rdfs:seeAlso <https://maytetoscano.github.io/bblock-ebv-bioclima/build/register.json> ] ;
-            prov:wasAssociatedWith _:N96179e7c790e42ac9bdd119ea820e84c ] .
+            prov:wasAssociatedWith _:Nee1abac207df4271acd9836d8af4ccb4 ] .
 
-_:N96179e7c790e42ac9bdd119ea820e84c a prov:Agent,
+_:Nee1abac207df4271acd9836d8af4ccb4 a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
     dct:hasVersion "0.5.28" ;
