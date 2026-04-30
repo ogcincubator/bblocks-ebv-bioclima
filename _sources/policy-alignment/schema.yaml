@@ -1,0 +1,13 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+description: Policy framework alignment
+type: object
+required: [frameworks]
+properties:
+  frameworks:
+    type: array
+    items:
+      type: object
+      properties:
+        name: {type: string}
+        alignment_type: {type: string, enum: [direct, indirect, supporting]}
+        targets: {type: array, items: {type: string}}

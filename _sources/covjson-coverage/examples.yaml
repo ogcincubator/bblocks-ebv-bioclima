@@ -1,0 +1,9 @@
+examples:
+  - title: Finland coniferous VAP coverage (2001-2018)
+    content: |
+      Complete CoverageJSON Coverage for coniferous Start of Vegetation Active Period.
+      Grid domain 320x200 over 18 years. Parameter with 4-language descriptions linked 
+      to EBV ontology via observedProperty URI. NdArray range with 1,152,000 cells.
+    snippets:
+      - language: json
+        ref: examples/finland-vap-coniferous.json

@@ -1,0 +1,8 @@
+name: EBV Phenology Finland Building Blocks
+abstract: |
+  Complete OGC Building Blocks for EBV phenology raster data. Models the full 
+  CoverageJSON UML (9 classes) plus 7 EBV-specific blocks = 17 total.
+  Multi-language ontology (EN, ES, ZH, RO). Dataset: Finland VAP 2001-2018.
+identifier-prefix: syke.ebv.phenology.
+imports:
+  - default
