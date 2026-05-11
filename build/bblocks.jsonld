@@ -191,14 +191,15 @@
       }
     }
   ],
-  "name": "Building Blocks - EBV Phenology Finland Building Blocks",
-  "abstract": "Complete OGC Building Blocks for EBV phenology raster data. Models the full \nCoverageJSON UML (9 classes) plus 7 EBV-specific blocks = 17 total.\nMulti-language ontology (EN, ES, ZH, RO). Dataset: Finland VAP 2001-2018.\n",
-  "modified": "2026-05-06T09:01:36.223431",
+  "name": "Building Blocks - BioClima EBV Phenology Finland OGC Blocks",
+  "abstract": "Complete OGC Blocks for EBV phenology raster data. Models the full \nCoverageJSON UML (9 classes) plus 7 EBV-specific blocks = 17 total.\nMulti-language ontology (EN, ES, ZH, RO). Dataset: Finland VAP 2001-2018.\n",
+  "description": "## About this Register: BioClima EBV Phenology Finland OGC Blocks\n\nThis register is a key component of the **BioClima** project, a pioneering EU-China collaboration aimed at transforming biodiversity and climate monitoring through **artificial intelligence**, ground-based data, and remote sensing. This specific repository serves as an incubator for **OGC Blocks** tailored for **Essential Biodiversity Variables (EBVs)** and **Essential Climate Variables (ECVs)**.\n\n### Who is this register for?\nThis register is intended to support a diverse range of **communities and roles** involved in environmental monitoring and data science:\n*   **Developers and Standards Implementers:** Those building software and platforms that require interoperable environmental data.\n*   **Data Providers:** Agencies and researchers needing to publish biodiversity datasets (such as vegetation phenology) in a standardized, machine-readable format.\n*   **Domain Experts:** Scientists and ecologists focused on **terrestrial ecosystems** who require high-precision monitoring tools.\n*   **Policy-Makers:** Individuals seeking **science-backed strategies** and robust data to inform national and international environmental policies.\n\n### What does this register contain?\nThe register includes **17 OGC Blocks** designed to provide a comprehensive framework for environmental data. It features:\n*   **Standardized Modelling:** A 1:1 mapping of the **CoverageJSON UML** (OGC 21-069r2) for representation of spatio-temporal data.\n*   **EBV-Specific Blocks:** Custom blocks including the **EBV Dataset Profile** (class, name, entities), **Phenology Indicators** (trends, anomalies), and an **EBV Phenology Ontology** available in four languages (English, Spanish, Chinese, and Romanian).\n*   **Metadata and Quality:** Blocks for **Data Provenance** (using W3C PROV) and **Data Quality** metrics.\n*   **Strategic Alignment:** Blocks that link data to **Policy Alignment** (e.g., SDG 15, GBF Goal A) and **Ecosystem Services** like carbon sequestration and pollination.\n\n### When should this register be used?\nThis register is most relevant in the following scenarios and workflows:\n*   **Data Harmonization:** When developing **harmonized monitoring systems** to ensure data interoperability between different regions, specifically between **Europe and China**.\n*   **Implementation Phases:** During the design and deployment of **AI-enhanced analytical models** for terrestrial ecosystem monitoring.\n*   **Standardization Workflows:** When there is a need to follow **EuropaBON** goals for standardized biodiversity monitoring.\n*   **Reporting:** When aligning environmental data with international frameworks such as **NBSAPs** (National Biodiversity Strategies and Action Plans) or the **IPBES**.\n\n### Where does this register fit?\nThis register fits within the **broader OGC (Open Geospatial Consortium) ecosystem** as an incubator project for reusable \"building blocks\". It relates to existing OGC standards by extending the **CoverageJSON** specification to meet the specific needs of the biodiversity community. Furthermore, it acts as a bridge between technical architectural layers and high-level policy goals, such as the **UN Sustainable Development Goals**.\n\n### Why does this register exist?\nThe register exists to fill critical gaps in current environmental monitoring:\n*   **Gap in Integration:** It addresses the need for better integration between **climate and biodiversity** data, which are often monitored in silos.\n*   **Technical Standardisation:** It provides a structured way to handle **Essential Biodiversity Variables**, adding value beyond generic OGC blocks by including specific phenology and provenance schemas.\n*   **Informed Decision-Making:** By providing **AI-driven insights** and verified data models, it empowers more resilient environmental management and addresses the global **biodiversity funding gap** through better-documented impacts.\n\n### How is this register structured and implemented?\nThe register is structured as a series of modular **OGC Blocks** managed via GitHub:\n*   **Base Standards:** It reuses the **CoverageJSON UML** for its core data structure and the **W3C PROV** standard for documenting data lineages (e.g., from MODIS to Phenology indicators).\n*   **Ontologies:** Implementation includes **OWL/SKOS** ontologies to provide semantic clarity across multiple languages.\n*   **Automation:** The register uses **GitHub Actions** for the automated processing and post-processing of the building blocks.\n*   **Custom Extensions:** It introduces unique schemas for **Phenology Indicators** (tracking trends like -0.45 days/year) and links to ecosystem service impacts.\n",
+  "modified": "2026-05-11T08:05:05.919546",
   "tooling": {
     "bblocks-postprocess": {
-      "commitId": "\"e7a962626cb1b8416eac2178e4b7326d31314fcd",
-      "shortCommitId": "\"e7a962",
-      "date": "2026-04-28T10:25:15+00:00\""
+      "commitId": "\"5ddf8dfdfa92574f112703863576f5cd6b579a56",
+      "shortCommitId": "\"5ddf8d",
+      "date": "2026-05-10T08:12:13+00:00\""
     }
   },
   "gitRepository": "https://github.com/ogcincubator/bblocks-ebv-bioclima",
@@ -236,7 +237,7 @@
     "dcat:Catalog",
     "bblocks:BBlocksRegister"
   ],
-  "skos:prefLabel": "Building Blocks - EBV Phenology Finland Building Blocks",
+  "skos:prefLabel": "Building Blocks - BioClima EBV Phenology Finland OGC Blocks",
   "hasConcepts": [
     {
       "itemIdentifier": "syke.ebv.phenology.covjson-axis",
@@ -248,7 +249,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2024-01-01",
+      "dateOfLastChange": "2026-05-11",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a77.2",
@@ -324,7 +325,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2024-01-01",
+      "dateOfLastChange": "2026-05-11",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a77.4",
@@ -400,7 +401,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2024-01-01",
+      "dateOfLastChange": "2026-05-11",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a79",
@@ -477,7 +478,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2024-01-01",
+      "dateOfLastChange": "2026-05-11",
       "sources": [
         {
           "title": "W3C OWL 2",
@@ -558,7 +559,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2024-01-01",
+      "dateOfLastChange": "2026-05-11",
       "sources": [
         {
           "title": "GEO BON EBV Framework",
@@ -634,7 +635,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2024-01-01",
+      "dateOfLastChange": "2026-05-11",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a77",
@@ -713,7 +714,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2024-01-01",
+      "dateOfLastChange": "2026-05-11",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a79.2",
@@ -791,7 +792,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2024-01-01",
+      "dateOfLastChange": "2026-05-11",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a78",
@@ -876,7 +877,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2024-01-01",
+      "dateOfLastChange": "2026-05-11",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a79",
@@ -884,8 +885,8 @@
         }
       ],
       "dependsOn": [
-        "bblocks://syke.ebv.phenology.covjson-tiled-ndarray",
-        "bblocks://syke.ebv.phenology.covjson-ndarray"
+        "bblocks://syke.ebv.phenology.covjson-ndarray",
+        "bblocks://syke.ebv.phenology.covjson-tiled-ndarray"
       ],
       "tags": [
         "covjson",
@@ -955,7 +956,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2024-01-01",
+      "dateOfLastChange": "2026-05-11",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a78.3",
@@ -1033,7 +1034,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2024-01-01",
+      "dateOfLastChange": "2026-05-11",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a76",
@@ -1042,9 +1043,9 @@
       ],
       "dependsOn": [
         "bblocks://syke.ebv.phenology.covjson-parameter",
-        "bblocks://syke.ebv.phenology.covjson-range",
         "bblocks://syke.ebv.phenology.covjson-domain",
-        "bblocks://syke.ebv.phenology.covjson-parameter-group"
+        "bblocks://syke.ebv.phenology.covjson-parameter-group",
+        "bblocks://syke.ebv.phenology.covjson-range"
       ],
       "tags": [
         "covjson",
@@ -1121,7 +1122,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2024-01-01",
+      "dateOfLastChange": "2026-05-11",
       "sources": [
         {
           "title": "OGC CoverageJSON 21-069r2 \u00a76.3",
@@ -1200,7 +1201,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2026-05-11",
       "sources": [
         {
           "title": "W3C PROV-O",
@@ -1285,7 +1286,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2024-01-01",
+      "dateOfLastChange": "2026-05-11",
       "sources": [],
       "dependsOn": [
         "bblocks://syke.ebv.phenology.covjson-coverage"
@@ -1357,7 +1358,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2026-05-11",
       "sources": [
         {
           "title": "OGC API - Features, Part 1, 7.16.2: Feature Response",
@@ -1366,9 +1367,9 @@
       ],
       "dependsOn": [
         "bblocks://ogc.geo.features.feature",
-        "bblocks://syke.ebv.phenology.data-provenance",
+        "bblocks://syke.ebv.phenology.ebv-profile",
         "bblocks://syke.ebv.phenology.covjson-coverage",
-        "bblocks://syke.ebv.phenology.ebv-profile"
+        "bblocks://syke.ebv.phenology.data-provenance"
       ],
       "tags": [
         "feature",
@@ -1455,11 +1456,11 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2026-05-11",
       "sources": [],
       "dependsOn": [
-        "bblocks://syke.ebv.phenology.data-provenance",
-        "bblocks://syke.ebv.phenology.covjson-coverage"
+        "bblocks://syke.ebv.phenology.covjson-coverage",
+        "bblocks://syke.ebv.phenology.data-provenance"
       ],
       "tags": [
         "ecosystem-services",
@@ -1529,11 +1530,11 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2026-04-30",
+      "dateOfLastChange": "2026-05-11",
       "sources": [],
       "dependsOn": [
-        "bblocks://syke.ebv.phenology.data-provenance",
-        "bblocks://syke.ebv.phenology.covjson-coverage"
+        "bblocks://syke.ebv.phenology.covjson-coverage",
+        "bblocks://syke.ebv.phenology.data-provenance"
       ],
       "tags": [
         "policy",
