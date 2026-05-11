@@ -30,7 +30,7 @@ description: |
   *   **Data Harmonization:** When developing **harmonized monitoring systems** to ensure data interoperability between different regions, specifically between **Europe and China**.
   *   **Implementation Phases:** During the design and deployment of **AI-enhanced analytical models** for terrestrial ecosystem monitoring.
   *   **Standardization Workflows:** When there is a need to follow **EuropaBON** goals for standardized biodiversity monitoring.
-  *   **Reporting:** When aligning environmental data with international frameworks such as **NBSAPs** (National Biodiversity Strategies and Action Plans) or the **IPBES**.
+  *   **Reporting:** When aligning environmental data with international frameworks such as **GBF**  
 
   ### Where does this register fit?
   This register fits within the **broader OGC (Open Geospatial Consortium) ecosystem** as an incubator project for reusable "building blocks". It relates to existing OGC standards by extending the **CoverageJSON** specification to meet the specific needs of the biodiversity community. Furthermore, it acts as a bridge between technical architectural layers and high-level policy goals, such as the **UN Sustainable Development Goals**.
