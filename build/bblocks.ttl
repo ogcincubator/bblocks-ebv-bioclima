@@ -21,12 +21,12 @@
     rdfs:label "CovJSON Coverage Collection" ;
     dct:abstract "Collection of coverages grouping multiple entities. Maps to the EBV Data Cube with 4 dimensions: lon, lat, time, entity."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.covjson-coverage-collection> ],
-        [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/covjson-coverage-collection/index.md> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/covjson-coverage-collection/index.json> ] ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/covjson-coverage-collection/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.covjson-coverage-collection> ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2026-05-11"^^xsd:date ;
     dct:source <https://docs.ogc.org/cs/21-069r2/21-069r2.html> ;
@@ -58,10 +58,10 @@
     dct:created "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/data-quality/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/data-quality/index.md> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.data-quality> ] ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.data-quality> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/data-quality/index.md> ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2026-05-11"^^xsd:date ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-ebv-bioclima/> ;
@@ -89,12 +89,12 @@
     rdfs:label "EBV Feature View" ;
     dct:abstract "Discovery layer: GeoJSON Feature with EBV phenology properties linked to CoverageJSON building blocks via semantic context. Enables map visualization in OGC BB viewer."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/ebv-feature-view/index.md> ],
+        [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.ebv-feature-view> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/ebv-feature-view/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/ebv-feature-view/index.md> ] ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/ebv-feature-view/index.json> ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2026-05-11"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r3/17-069r3.html#_response_7> ;
@@ -105,23 +105,23 @@
         "feature",
         "geojson",
         "map" ;
-    prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/ebv-feature-view/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
+    prof:hasResource [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
             dct:format "application/ld+json" ;
             prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/ebv-feature-view/context.jsonld> ;
             prof:hasRole role:mapping ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/ebv-feature-view/schema.yaml> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/ebv-feature-view/schema.json> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo shacl: ;
             dct:format "text/turtle" ;
             rdfs:seeAlso <bblocks://ogc.geo.features.feature> ;
             prof:hasArtifact <https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl> ;
-            prof:hasRole role:validation ] ;
+            prof:hasRole role:validation ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/ebv-feature-view/schema.yaml> ;
+            prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.geo.features.feature>,
         <bblocks://syke.ebv.phenology.covjson-coverage>,
         <bblocks://syke.ebv.phenology.data-provenance>,
@@ -137,10 +137,10 @@
     rdfs:label "Ecosystem Services Link" ;
     dct:abstract "Connects phenological shifts to ecosystem services such as pollination, carbon sequestration, water regulation, timber and recreation."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/ecosystem-services/index.json> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.ecosystem-services> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/ecosystem-services/index.json> ],
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/ecosystem-services/index.md> ] ;
     dct:hasVersion "1.0" ;
@@ -153,12 +153,12 @@
         "phenology",
         "pollination" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/ecosystem-services/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/ecosystem-services/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/ecosystem-services/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://syke.ebv.phenology.covjson-coverage>,
         <bblocks://syke.ebv.phenology.data-provenance> ;
@@ -172,12 +172,12 @@
     rdfs:label "Policy Alignment" ;
     dct:abstract "Policy-relevance and alignment record for EBV phenology data and derived indicators."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.policy-alignment> ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/policy-alignment/index.md> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/policy-alignment/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/policy-alignment/index.md> ] ;
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.policy-alignment> ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2026-05-11"^^xsd:date ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-ebv-bioclima/> ;
@@ -188,16 +188,16 @@
         "phenology",
         "policy" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/policy-alignment/schema.json> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/policy-alignment/schema.yaml> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
             dct:format "application/ld+json" ;
             prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/policy-alignment/context.jsonld> ;
             prof:hasRole role:mapping ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/policy-alignment/schema.yaml> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/policy-alignment/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://syke.ebv.phenology.covjson-coverage>,
         <bblocks://syke.ebv.phenology.data-provenance> ;
@@ -211,18 +211,18 @@
 
 <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/bblocks.ttl> a prov:Entity ;
     dct:format "text/turtle" ;
-    prov:wasAttributedTo _:N124da39f5f5e484883c421fba2053820 ;
+    prov:wasAttributedTo _:N034ffb31f3754c4ab72bcf820c6aac9f ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            prov:endedAtTime "2026-05-11T08:05:09.723512"^^xsd:dateTime ;
-            prov:startedAtTime "2026-05-11T08:05:09.523705"^^xsd:dateTime ;
+            prov:endedAtTime "2026-05-11T08:37:45.402569"^^xsd:dateTime ;
+            prov:startedAtTime "2026-05-11T08:37:45.255518"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
                     dct:format "application/yaml" ;
                     rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
                 [ a prov:Entity ;
                     dct:format "application/json" ;
-                    dct:hasVersion "git:37e1247be86fc44ba30e47e1905db43ed8e6ef38" ;
+                    dct:hasVersion "git:ed7f9f1f4d24e5b574df4d04734e1bc0690e654b" ;
                     rdfs:seeAlso <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/register.json> ] ;
-            prov:wasAssociatedWith _:N124da39f5f5e484883c421fba2053820 ] .
+            prov:wasAssociatedWith _:N034ffb31f3754c4ab72bcf820c6aac9f ] .
 
 <https://www.w3.org/TR/owl2-overview/> rdfs:label "W3C OWL 2" .
 
@@ -235,12 +235,12 @@
     rdfs:label "CovJSON Axis" ;
     dct:abstract "Single coordinate axis of a coverage domain: spatial (x,y,z) or temporal (t). Defines start, stop, num for regular axes or explicit values."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.covjson-axis> ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/covjson-axis/index.md> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/covjson-axis/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/covjson-axis/index.md> ] ;
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.covjson-axis> ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2026-05-11"^^xsd:date ;
     dct:source <https://docs.ogc.org/cs/21-069r2/21-069r2.html> ;
@@ -269,12 +269,12 @@
     rdfs:label "CovJSON Domain" ;
     dct:abstract "Coverage domain defining spatial/temporal extent via axes and reference systems. Supports Grid, PointSeries, Trajectory and other domain types."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/covjson-domain/index.md> ],
+        [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/covjson-domain/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.covjson-domain> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/covjson-domain/index.md> ] ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.covjson-domain> ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2026-05-11"^^xsd:date ;
     dct:source <https://docs.ogc.org/cs/21-069r2/21-069r2.html> ;
@@ -286,12 +286,12 @@
         "grid",
         "spatiotemporal" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/covjson-domain/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/covjson-domain/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/covjson-domain/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://syke.ebv.phenology.covjson-axis>,
         <bblocks://syke.ebv.phenology.covjson-reference-system> ;
@@ -305,12 +305,12 @@
     rdfs:label "CovJSON Parameter Group" ;
     dct:abstract "Semantic grouping of related parameters, e.g., velocity = speed + direction, or coniferous + deciduous VAP."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/covjson-parameter-group/index.md> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/covjson-parameter-group/index.json> ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.covjson-parameter-group> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/covjson-parameter-group/index.json> ] ;
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/covjson-parameter-group/index.md> ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2026-05-11"^^xsd:date ;
     dct:source <https://docs.ogc.org/cs/21-069r2/21-069r2.html> ;
@@ -322,12 +322,12 @@
         "parameter",
         "semantic" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/covjson-parameter-group/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/covjson-parameter-group/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/covjson-parameter-group/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://syke.ebv.phenology.covjson-parameter> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -340,12 +340,12 @@
     rdfs:label "CovJSON Range" ;
     dct:abstract "Container for data values of a single parameter. Contains NdArray (inline) or TiledNdArray (tiled/external)."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/covjson-range/index.json> ],
+        [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.covjson-range> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/covjson-range/index.md> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/covjson-range/index.json> ] ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/covjson-range/index.md> ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2026-05-11"^^xsd:date ;
     dct:source <https://docs.ogc.org/cs/21-069r2/21-069r2.html> ;
@@ -378,10 +378,10 @@
     dct:created "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.covjson-reference-system> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/covjson-reference-system/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/covjson-reference-system/index.md> ] ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/covjson-reference-system/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/covjson-reference-system/index.json> ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2026-05-11"^^xsd:date ;
     dct:source <https://docs.ogc.org/cs/21-069r2/21-069r2.html> ;
@@ -410,12 +410,12 @@
     rdfs:label "CovJSON TiledNdArray" ;
     dct:abstract "Tiled range encoding that partitions data spatially/temporally via URI templates, enabling efficient partial loading."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/covjson-tiled-ndarray/index.md> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.covjson-tiled-ndarray> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/covjson-tiled-ndarray/index.json> ] ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/covjson-tiled-ndarray/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/covjson-tiled-ndarray/index.md> ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2026-05-11"^^xsd:date ;
     dct:source <https://docs.ogc.org/cs/21-069r2/21-069r2.html> ;
@@ -445,12 +445,12 @@
     rdfs:label "EBV Phenology Ontology" ;
     dct:abstract "OWL/SKOS ontology with multilingual labels (EN, ES, ZH, RO). Linked from CovJSON observedProperty URIs."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/ebv-ontology/index.json> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.ebv-ontology> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/ebv-ontology/index.md> ] ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/ebv-ontology/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/ebv-ontology/index.json> ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2026-05-11"^^xsd:date ;
     dct:source <https://www.w3.org/TR/owl2-overview/> ;
@@ -462,17 +462,17 @@
         "ontology",
         "owl" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/ebv-ontology/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/ebv-ontology/schema.yaml> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo owl:Ontology ;
             dct:format "text/turtle" ;
             prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/ebv-ontology/ontology.ttl> ;
-            prof:hasRole role:specification ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/ebv-ontology/schema.json> ;
-            prof:hasRole role:schema ] ;
+            prof:hasRole role:specification ] ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
 
@@ -485,10 +485,10 @@
     dct:created "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/ebv-profile/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/ebv-profile/index.md> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.ebv-profile> ] ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.ebv-profile> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/ebv-profile/index.md> ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2026-05-11"^^xsd:date ;
     dct:source <https://geobon.org/ebvs/> ;
@@ -519,10 +519,10 @@
     dct:created "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/covjson-ndarray/index.md> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/covjson-ndarray/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.covjson-ndarray> ] ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.covjson-ndarray> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/covjson-ndarray/index.json> ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2026-05-11"^^xsd:date ;
     dct:source <https://docs.ogc.org/cs/21-069r2/21-069r2.html> ;
@@ -535,12 +535,12 @@
         "pixels",
         "values" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/covjson-ndarray/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/covjson-ndarray/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/covjson-ndarray/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
@@ -552,12 +552,12 @@
     rdfs:label "CovJSON Parameter" ;
     dct:abstract "Describes what is measured: observed property with multi-language labels, unit of measure, and optional category encoding."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/covjson-parameter/index.json> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.covjson-parameter> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/covjson-parameter/index.md> ] ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/covjson-parameter/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/covjson-parameter/index.json> ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2026-05-11"^^xsd:date ;
     dct:source <https://docs.ogc.org/cs/21-069r2/21-069r2.html> ;
@@ -570,17 +570,17 @@
         "parameter",
         "unit" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/covjson-parameter/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/covjson-parameter/schema.json> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
             dct:format "application/ld+json" ;
             prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/covjson-parameter/context.jsonld> ;
-            prof:hasRole role:mapping ] ;
+            prof:hasRole role:mapping ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/covjson-parameter/schema.yaml> ;
+            prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://syke.ebv.phenology.ebv-ontology> ;
     bblocks:hasSourceJsonLdContext <https://ogcincubator.github.io/bblocks-ebv-bioclima/_sources/covjson-parameter/context.jsonld> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -593,10 +593,10 @@
     rdfs:label "Data Provenance" ;
     dct:abstract "Lineage and provenance information for EBV phenology datasets and derived phenology indicators."^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/data-provenance/index.json> ],
-        [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/data-provenance/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/data-provenance/index.json> ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.data-provenance> ] ;
     dct:hasVersion "1.0" ;
@@ -609,17 +609,17 @@
         "phenology",
         "prov",
         "provenance" ;
-    prof:hasResource [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
+    prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/data-provenance/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
             dct:format "application/ld+json" ;
             prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/data-provenance/context.jsonld> ;
             prof:hasRole role:mapping ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/data-provenance/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/data-provenance/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://syke.ebv.phenology.covjson-coverage> ;
     bblocks:hasSourceJsonLdContext <https://ogcincubator.github.io/bblocks-ebv-bioclima/_sources/data-provenance/context.jsonld> ;
@@ -635,10 +635,10 @@
     dct:created "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/markdown/ebv/phenology/covjson-coverage/index.md> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/covjson-coverage/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.covjson-coverage> ] ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/bblock/syke.ebv.phenology.covjson-coverage> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/generateddocs/json-full/ebv/phenology/covjson-coverage/index.json> ] ;
     dct:hasVersion "1.0" ;
     dct:modified "2026-05-11"^^xsd:date ;
     dct:source <https://docs.ogc.org/cs/21-069r2/21-069r2.html> ;
@@ -649,17 +649,17 @@
         "coverage",
         "covjson",
         "raster" ;
-    prof:hasResource [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
+    prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/covjson-coverage/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
             dct:format "application/ld+json" ;
             prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/covjson-coverage/context.jsonld> ;
             prof:hasRole role:mapping ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/covjson-coverage/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/annotated/ebv/phenology/covjson-coverage/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://syke.ebv.phenology.covjson-domain>,
         <bblocks://syke.ebv.phenology.covjson-parameter>,
@@ -710,7 +710,7 @@ This register is most relevant in the following scenarios and workflows:
 *   **Data Harmonization:** When developing **harmonized monitoring systems** to ensure data interoperability between different regions, specifically between **Europe and China**.
 *   **Implementation Phases:** During the design and deployment of **AI-enhanced analytical models** for terrestrial ecosystem monitoring.
 *   **Standardization Workflows:** When there is a need to follow **EuropaBON** goals for standardized biodiversity monitoring.
-*   **Reporting:** When aligning environmental data with international frameworks such as **NBSAPs** (National Biodiversity Strategies and Action Plans) or the **IPBES**.
+*   **Reporting:** When aligning environmental data with international frameworks such as **GBF**  
 
 ### Where does this register fit?
 This register fits within the **broader OGC (Open Geospatial Consortium) ecosystem** as an incubator project for reusable "building blocks". It relates to existing OGC standards by extending the **CoverageJSON** specification to meet the specific needs of the biodiversity community. Furthermore, it acts as a bridge between technical architectural layers and high-level policy goals, such as the **UN Sustainable Development Goals**.
@@ -728,7 +728,7 @@ The register is structured as a series of modular **OGC Blocks** managed via Git
 *   **Automation:** The register uses **GitHub Actions** for the automated processing and post-processing of the building blocks.
 *   **Custom Extensions:** It introduces unique schemas for **Phenology Indicators** (tracking trends like -0.45 days/year) and links to ecosystem service impacts.
 """^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
-    dct:modified "2026-05-11T08:05:05.919546"^^xsd:dateTime ;
+    dct:modified "2026-05-11T08:37:41.761220"^^xsd:dateTime ;
     owl:imports <https://opengeospatial.github.io/bblocks/register.json> ;
     skos:hasTopConcept <bblocks://syke.ebv.phenology.covjson-axis>,
         <bblocks://syke.ebv.phenology.covjson-coverage>,
@@ -748,22 +748,22 @@ The register is structured as a series of modular **OGC Blocks** managed via Git
         <bblocks://syke.ebv.phenology.ecosystem-services>,
         <bblocks://syke.ebv.phenology.policy-alignment> ;
     skos:prefLabel "Building Blocks - BioClima EBV Phenology Finland OGC Blocks" ;
-    prof:hasResource [ rdfs:label "This Building Blocks Register in RDF Turtle format" ;
+    prof:hasResource [ rdfs:label "This Building Blocks Register in JSON format" ;
+            dct:type "application/json" ;
+            ns2:relation <http://www.iana.org/assignments/relation/self> ;
+            ns1:hasTarget <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/register.json> ],
+        [ rdfs:label "This Building Blocks Register in RDF Turtle format" ;
             dct:type "text/turtle" ;
             ns2:relation <http://www.iana.org/assignments/relation/self> ;
             ns1:hasTarget <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/bblocks.ttl> ],
         [ rdfs:label "This Building Blocks Register in JSON-LD format" ;
             dct:type "application/ld+json" ;
             ns2:relation <http://www.iana.org/assignments/relation/self> ;
-            ns1:hasTarget <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/bblocks.jsonld> ],
-        [ rdfs:label "This Building Blocks Register in JSON format" ;
-            dct:type "application/json" ;
-            ns2:relation <http://www.iana.org/assignments/relation/self> ;
-            ns1:hasTarget <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/register.json> ] ;
+            ns1:hasTarget <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/bblocks.jsonld> ] ;
     foaf:homepage <https://ogcincubator.github.io/bblocks-ebv-bioclima/> ;
     bblocks:hasValidationReport <https://ogcincubator.github.io/bblocks-ebv-bioclima/build/tests/report.html> .
 
-_:N124da39f5f5e484883c421fba2053820 a prov:Agent,
+_:N034ffb31f3754c4ab72bcf820c6aac9f a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
     dct:hasVersion "0.5.28" ;
