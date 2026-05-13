@@ -754,11 +754,11 @@ examples/finland-phenology-indicators-provenance.json
         [ a "prov:Activity" ],
         [ a "prov:Activity" ],
         [ a "prov:Activity" ] ;
-    prov:Agent [ a "SoftwareAgent" ],
-        [ a "SoftwareAgent" ],
-        [ a "Person" ],
+    prov:Agent [ a "Person" ],
         [ a "Organization" ],
-        [ a "InstrumentPlatform" ] ;
+        [ a "SoftwareAgent" ],
+        [ a "InstrumentPlatform" ],
+        [ a "SoftwareAgent" ] ;
     prov:Entity [ a "prov:Entity" ],
         [ a "prov:Entity" ],
         [ a "prov:Entity" ;
