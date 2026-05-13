@@ -49,6 +49,12 @@ description: |
   *   **Ontologies:** Implementation includes **OWL/SKOS** ontologies to provide semantic clarity across multiple languages.
   *   **Automation:** The register uses **GitHub Actions** for the automated processing and post-processing of the building blocks.
   *   **Custom Extensions:** It introduces unique schemas for **Phenology Indicators** (tracking trends like -0.45 days/year) and links to ecosystem service impacts.
+
+  ### **For Developers**
+  *   **[GitHub Repository](https://github.com/ogcincubator/bblocks-ebv-bioclima)**
+  *   **[OGC Blocks Documentation](https://ogcincubator.github.io/bblocks-docs/)**
+  *   **[OGC Blocks Tutorials](https://ogcincubator.github.io/bblocks-tutorial/)**
+  *   **[OGC Blocks Examples](https://ogcincubator.github.io/bblocks-examples/)**
 identifier-prefix: syke.ebv.phenology.
 imports:
   - default
