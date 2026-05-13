@@ -11,6 +11,8 @@ description: |
 
   This register is a key component of the **BioClima** project, a pioneering EU-China collaboration aimed at transforming biodiversity and climate monitoring through **artificial intelligence**, ground-based data, and remote sensing. This specific repository serves as an incubator for **OGC Blocks** tailored for **Essential Biodiversity Variables (EBVs)** and **Essential Climate Variables (ECVs)**.
 
+  This register specifically focuses on EBV Phenology, utilizing a dataset of vegetation trends in Finland to demonstrate how complex environmental observations can be structured using OGC standards and CoverageJSON. By integrating EBV-specific blocks, the repository aligns raw scientific data with global policy frameworks like the Sustainable Development Goals and international biodiversity targets. Ultimately, the resource provides a sophisticated framework for documenting data provenance, quality, and ontology, ensuring that ecological indicators are interoperable and accessible across different languages and platforms.
+
   ### Who is this register for?
   This register is intended to support a diverse range of **communities and roles** involved in environmental monitoring and data science:
   *   **Developers and Standards Implementers:** Those building software and platforms that require interoperable environmental data.
